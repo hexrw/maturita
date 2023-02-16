@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Podnik a podnikání
 permalink: /ekonomie/podnik-a-podnikani/
 ---

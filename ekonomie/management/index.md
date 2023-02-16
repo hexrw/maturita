@@ -1,4 +1,10 @@
-﻿**29. Management**
+﻿---
+layout: default
+title: Management
+permalink: /ekonomie/management/
+---
+
+**29. Management**
 
 - Pojem management a manažer 
 

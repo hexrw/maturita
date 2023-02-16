@@ -1,4 +1,10 @@
-﻿**30. Marketing**
+﻿---
+layout: default
+title: Marketing
+permalink: /ekonomie/marketing/
+---
+
+**30. Marketing**
 
 - Pojem marketing 
   - proces řízení, jehož výsledkem je poznání, předvídání, ovlivňování a v konečné fázi uspokojování potřeb a přání zákazníka efektivním a výhodným způsobem zajišťujícím splnění cílů organizace

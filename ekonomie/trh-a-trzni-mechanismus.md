@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Trh a tržní mechanismus
 permalink: /ekonomie/trh-a-trzni-mechanismus/
 ---

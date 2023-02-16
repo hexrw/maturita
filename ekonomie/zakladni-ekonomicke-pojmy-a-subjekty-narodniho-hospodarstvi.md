@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Základní ekonomické pojmy a subjekty národního hospodářství
 permalink: /ekonomie/zakladni-ekonomicke-pojmy-a-subjekty-narodniho-hospodarstvi/
 ---

@@ -1,8 +1,11 @@
 ---
-layout: home
+layout: default
 title: Informatika
 permalink: /informatika/
 ---
+
+[Zpět na hlavní stránku](/)
+
 
 1. [Algoritmus, vývojové diagramy, deklarace proměnných]()
 2. [Binární vyhledávací strom]()
