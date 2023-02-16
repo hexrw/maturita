@@ -1,9 +1,13 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
 
-<a href="./ekonomie/">Ekonomie</a>
-<a href="./informatika/">Informatika</a>
+<div>
+    <img src="./assets/ekonomie.svg" alt="Ekonomie" style="width: 2rem; height: 2rem;"/>
+    <a href="./ekonomie/" style="font-size: 2rem;">Ekonomie</a>
+</div>
+
+<div>
+    <img src="./assets/informatika.svg" alt="Informatika" style="width: 2rem; height: 2rem;"/>
+    <a href="./informatika/" style="font-size: 2rem;">Informatika</a>
+</div>

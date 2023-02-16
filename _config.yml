@@ -30,7 +30,6 @@ github_username:  hex2w
 # Build settings
 theme: jekyll-theme-minimal
 plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
