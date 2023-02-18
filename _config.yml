@@ -28,7 +28,7 @@ twitter_username: hex2w
 github_username:  hex2w
 
 # Build settings
-theme: jekyll-theme-minimal
+theme:
 plugins:
 
 # Exclude from processing.

@@ -4,9 +4,6 @@ title: Ekonomie
 permalink: /ekonomie/
 ---
 
-[Zpět na hlavní stránku](/)
-
-
 1. [Základní ekonomické pojmy a subjekty národního hospodářství](./zakladni-ekonomicke-pojmy-a-subjekty-narodniho-hospodarstvi)
 2. [Marketing](./marketing)
 3. [Daňová soustava ČR zaměřená na přímé daně](./danova-soustava-cr-zamerena-na-prime-dane)
