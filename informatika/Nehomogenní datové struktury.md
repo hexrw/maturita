@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nehomogenní datové struktury
-permalink: /informatika/nehomogene-datove-struktury/
+permalink: /informatika/nehomogenni-datove-struktury/
 ---
 
 {{ page.title }}

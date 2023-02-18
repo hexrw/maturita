@@ -35,6 +35,10 @@
 
             {{ content }}
 
+            {% if page.pdf %}
+                {% include pdf.html %}
+            {% endif %}
+
             </section>
 
             <hr style="margin: 2rem 0;">
