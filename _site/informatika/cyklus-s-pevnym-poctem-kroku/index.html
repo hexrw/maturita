@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/favicon.svg">
+
+        <link rel="stylesheet" href="/assets/pico.css">
+        <link rel="stylesheet" href="/assets/prism.css">
+        <style>
+            img {
+                margin: auto;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" style="padding-top: 1.5rem;">
+            <header>
+                <h1><a href="http://localhost:4000/">Maturita</a></h1>
+
+                
+
+                <p>Otázky k maturitě</p>
+            </header>
+
+            <hr style="margin: 2rem 0;">
+
+            
+            <div style="display: inline-flex; gap: 2rem; flex-wrap: wrap;">
+                <a class="outline" style="cursor: pointer;" onclick="window.history.back()">
+                    <img src="/assets/arrow-left.svg" alt="Zpět" style="width: 1.5rem; height: 1.5rem;">
+                </a>
+                <div id="breadcrumbs">
+    
+    <a href="/">Domů</a>
+    
+        
+            / <a href="/informatika/">Informatika</a>
+        
+    
+        
+            / Cyklus s pevným počtem kroků
+        
+    
+</div>
+            </div>
+            <hr style="margin: 2rem 0;">
+            
+
+            <section>
+
+            <h1 id="cyklus-s-pevným-počtem-kroků">Cyklus s pevným počtem kroků</h1>
+
+<p><code class="language-plaintext highlighter-rouge">for</code> cyklus, cyklus s parametrem, cyklus s řídící proměnnou nebo cyklus s výčtem hodnot</p>
+
+<p>Cykly spolu s podmínkami tvoří základ každého programovacího jazyka.
+Jak již slovo cyklus napoví, něco se bude opakovat. Když chceme v programu
+něco udělat 100x, jistě nebudeme psát pod sebe 100x ten samý kód, ale
+vložíme ho do cyklu. Cyklů máme několik druhů.</p>
+
+<p>Tento cyklus má stanovený pevný počet opakování a
+hlavně obsahuje tzv. řídící proměnnou (celočíselnou), ve které se
+postupně během běhu cyklu mění hodnoty. Syntaxe (zápis) cyklu
+for je následující:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">m</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Příklad - vypišme 3x “Hello World!”:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Nemusíme nic otrocky opisovat:</p>
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Hello World!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Cyklus proběhne 3x, zpočátku je v proměnné i nula, cyklus
+vypíše “Hello World”.</p>
+
+
+            
+
+            </section>
+
+            <hr style="margin: 2rem 0;">
+
+            <footer>
+                
+                <p>Projekt spravuje <a href="https://github.com/hex2w">hex2w</a></p>
+                
+            </footer>
+        </div>
+
+        <script src="/assets/prism.js"></script>
+    </body>
+</html>

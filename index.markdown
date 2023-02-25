@@ -18,4 +18,3 @@ permalink: /
     <img src="./assets/language.svg" alt="Angličtina" style="width: 2rem; height: 2rem; margin-top: auto; margin-bottom: auto;"/>
     <a href="./anglictina/" style="font-size: 2rem;">Angličtina</a>
 </div>
-
