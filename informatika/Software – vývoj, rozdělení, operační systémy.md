@@ -4,9 +4,6 @@ title: Software – vývoj, rozdělení, operační systémy
 permalink: /informatika/software-vyvoj-rozdeleni-operacni-systemy/
 ---
 
-{{ page.title }}
-================
-
 ## Vývoj softwaru
 
 Vývoj softwaru je proces **koncipování**, **popisu**, **specifikace**, **návrhu**, **programování**, **dokumentace**, **testování** a **oprav chyb** používaný při vytváření a údržbě aplikací, frameworků a jiných softwarových komponent. Jádrem vývoje softwaru je „programování“ – proces vytváření a údržby zdrojových kódů, ale v širším smyslu zahrnuje vše, co se používá od návrhu koncepce požadovaného softwaru až po jeho konečné nasazení, obvykle v plánovaném a strukturovaném procesu. Vývoj softwaru tak může zahrnovat výzkum, nový vývoj, prototypování, úpravy, znovupoužití, re-engineering, údržbu a všechny další činnosti, které přispívají k vytvoření softwarového produktu.

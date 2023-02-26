@@ -4,9 +4,6 @@ title: Cyklus s pevným počtem kroků
 permalink: /informatika/cyklus-s-pevnym-poctem-kroku/
 ---
 
-{{ page.title }}
-================
-
 `for` cyklus, cyklus s parametrem, cyklus s řídící proměnnou nebo cyklus s výčtem hodnot
 
 Cykly spolu s podmínkami tvoří základ každého programovacího jazyka.

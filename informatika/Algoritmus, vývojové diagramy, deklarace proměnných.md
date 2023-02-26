@@ -4,10 +4,7 @@ title: Algoritmus, vývojové diagramy, deklarace proměnných
 permalink: /informatika/algoritmus-vyvojove-diagramy-deklarace-promennych/
 ---
 
-{{ page.title }}
-================
-
-﻿**Algoritmy**
+**Algoritmy**
 
 Algoritmus je přesný návod či postup, kterým lze vyřešit daný typ úlohy. Pojem algoritmus se nejčastěji objevuje při programování, kdy se jím myslí teoretický princip řešení problému (oproti přesnému zápisu v konkrétním programovacím jazyce). Obecně se ale algoritmus může objevit v jakémkoli jiném vědeckém odvětví. Jako jistý druh algoritmu se může chápat i např. kuchařský recept. Zpravidla však na algoritmy klademe určitá omezení.
 

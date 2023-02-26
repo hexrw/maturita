@@ -4,9 +4,6 @@ title: Trh a tržní mechanismus
 permalink: /ekonomie/trh-a-trzni-mechanismus/
 ---
 
-Trh a tržní mechanismus
-=======================
-
 ### Trh
 
 - jakýkoli systém koupě a prodeje zboží a služeb nebo výrobních faktorů

@@ -4,9 +4,6 @@ title: Bitmapová počítačová grafika
 permalink: /informatika/bitmapova-pocitacova-grafika/
 ---
 
-{{ page.title }}
-================
-
 Rastrová grafika (či bitmapová grafika) je jeden ze dvou základních způsobů, jakým počítače ukládají a zpracovávají obrazové informace (druhý způsob je vektorová grafika).
 
 V rastrové grafice je celý obrázek popsán pomocí jednotlivých barevných bodů (pixelů). Body jsou uspořádány do mřížky. Každý bod má určen svou přesnou polohu a barvu v nějakém barevném modelu (např. RGB). Tento způsob popisu obrázků používá např. televize nebo digitální fotoaparát.

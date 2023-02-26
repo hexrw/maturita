@@ -4,9 +4,6 @@ title: Podnik a podnikání
 permalink: /ekonomie/podnik-a-podnikani/
 ---
 
-Podnik a podnikání
-==================
-
 ***Podnik, cíle a funkce podniku, typy podniků, okolí podniku, vznik a zánik***
 
 

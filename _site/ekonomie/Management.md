@@ -4,8 +4,6 @@ title: Management
 permalink: /ekonomie/management/
 ---
 
-**29. Management**
-
 - Pojem management a manažer 
 
 **Management =** proces plánování, organizování, vedení a kontroly organizačních činností zaměřených na dosažení organizačních cílů
@@ -20,13 +18,13 @@ permalink: /ekonomie/management/
 - manažeři na tomto stupni dohlíží na plnění práce 
 - příklady profesí : mistři, vedoucí malých prodejen, vedoucí dílen, …
 - úkoly :  činnosti,  které  vyplývají  z každodenní  činnosti,  krátkodobé  plány, zapracování nových zaměstnanců, provádění každodenní motivace, sepisování zpráv a hlášení pro střední řídící pracovníky
-2) **Střední (middle) management**
+1) **Střední (middle) management**
 - střední řídící pracovníci
 - management druhého stupně – vedoucí pracovníci
 - jsou z mnoha různorodých odvětví
 - příklady profesí : vedoucí závodů, personální vedoucí, obchodní vedoucí, …
 - úkoly : sestavují spíše krátkodobé taktické plány, organizování úseků, provádění motivačních programů, stanovení kontrolních cílů
-3) **Top management**
+1) **Top management**
 - vrcholový management – špičkoví řídící pracovníci
 - usměrňují chod celého systému
 - závisí na nich úspěch podniku
@@ -39,17 +37,17 @@ permalink: /ekonomie/management/
 - možnost zlepšení práce a vlastní formy plnění úkolů nepromýšlí
 - pečlivě kontroluje plnění příkazů
 - svou práci chápe především jako realizátor příkazů shora
-2) **Autokratický styl**
+1) **Autokratický styl**
 - maximálně centralizovaný
 - funguje jako vůdce
 - členům skupiny poskytuje málo samostatnosti
 - dá se použít u práce s důrazem na kontrolu plnění úkolů ® zpravidla jednoduché práce s nízkou kvalifikací
-3) **Liberalistický styl**
+1) **Liberalistický styl**
 - minimálně centralizovaný
 - vedoucí zasahuje málo, existuje svoboda, ale ne chaos
 - funguje individuální odpovědnost
 - lze použít pouze v kolektivech vysoce kvalifikovaných odborníků
-4) **Demokratický styl**
+1) **Demokratický styl**
 - optimálně centralizovaný
 - založen na vzájemném respektování
 - členové mají přehled o skupinových cílech, spolupodílejí se na rozhodování
@@ -59,18 +57,18 @@ permalink: /ekonomie/management/
 - vytyčení cíle, prostředků a činnosti k jejich dosažení
 1) Plány strategické  – dlouhodobé (nad 5 let)
    1. definuje obecné dlouhodobé cíle podniku
-   1. cíle se týkají podniku jako celku
-   1. definuje silné a slabé stránky podniku
-   1. hodnotí příležitosti a hrozby vnějšího prostředí *SWOT ANALÝZA*
-   1. vykonávají ho top manažeři
-   1. např.: dosahování trvalé stability na trhu, trvalého optimálního zisku, zvětšování základního kapitálu, vyvíjení nových výrobků, používání konkurenčních cen u špičkových  výrobců,  distribuce  výrobků  na  zahraniční  trhy,  dosažení dominantních postavení na domácím trhu
-1) Plány taktické  – střednědobé (na 1 až 5 let)
+   2. cíle se týkají podniku jako celku
+   3. definuje silné a slabé stránky podniku
+   4. hodnotí příležitosti a hrozby vnějšího prostředí *SWOT ANALÝZA*
+   5. vykonávají ho top manažeři
+   6. např.: dosahování trvalé stability na trhu, trvalého optimálního zisku, zvětšování základního kapitálu, vyvíjení nových výrobků, používání konkurenčních cen u špičkových  výrobců,  distribuce  výrobků  na  zahraniční  trhy,  dosažení dominantních postavení na domácím trhu
+2) Plány taktické  – střednědobé (na 1 až 5 let)
 - konkretizace strategického plánu
 - plánování nejčastěji na 1 rok
 - finanční – výnosy, tržby, náklady, mzdy, opisy, zisk, …
 - hmotné – vyrobené ks, spotřebované t, prodané m, …
 - pracovní – počet pracovníků, odpracované hodiny nebo dny, …
-3) Prány operativní  – krátkodobé (do 1 roku)
+1) Prány operativní  – krátkodobé (do 1 roku)
 - konkretizuje, upřesňuje a zajišťuje taktické plány
 - místní konkretizace  – transformace taktického plánu podniku na závody, provozy, dílny, prodejny, pracoviště
 - časová konkretizace  – transformace úkolů taktického plánu na čtvrtletí, měsíce, dekády, anebo týdny, dny a směny
@@ -81,11 +79,11 @@ permalink: /ekonomie/management/
 - Štábní struktury - jsou pomocníky pro liniovou strukturu 
 - Liniově štábní struktury - řídící pravomoci zůstávají na liniovém řízení a štáby mají určité přesné vymezené řídicí kompetence 
 - Cílově programované struktury: jeden pracovník může být zároveň podřízen 2 a více vedoucím 
-2. **Z hlediska formálnosti** 
+1. **Z hlediska formálnosti** 
 - Formální struktura - oficiální struktura uvedena v organizačním řádu firmy, kde je jednoznačně určena podřízenost a nadřízenost 
 - Neformální struktura - síť osobních vztahů, vzniká spontánně na základě vztahů mezi lidmi, není uvedena v žádných organizačních řádech 
-3. **Z hlediska sdružování činnosti** 
-1) **Funkcionální struktura**
+1. **Z hlediska sdružování činnosti** 
+2) **Funkcionální struktura**
 - jedná se o rozdělení firmy na odborné úseky (např. výrobní, zásobovací úsek), ty se pak následně dělá na další oddělení 
 - Př. Generální ředitel: finanční ředitel – účetní 
   - kalkulace 
@@ -94,7 +92,7 @@ permalink: /ekonomie/management/
   - provozní ředitelé 
 - Výhody: efektivnost práce, odborná specializace
 - Nevýhody: nebezpečí úzkého resortního přístupu, je těžké dosahovat komplexního systémového řízení 
-2) **Výrobková struktura**
+1) **Výrobková struktura**
 - dává přednost výrobkové specializaci 
 - Výhody: komplexní řízení jednotlivých podnikových aktivit 
 - Nevýhody: řízení firmy je obtížné = soupeření oborů 

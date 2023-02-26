@@ -4,9 +4,6 @@ title: Binární vyhledávací strom
 permalink: /informatika/binarni-vyhledavaci-strom/
 ---
 
-{{ page.title }}
-================
-
 Binární vyhledávací strom (BST – z angl. Binary Search Tree) je datová struktura založená na binárním stromu, v němž jsou jednotlivé prvky (uzly) uspořádány tak, aby v tomto stromu bylo možné rychle vyhledávat danou hodnotu. To zajišťují tyto vlastnosti:
 
 - Jedná se o binární strom, každý uzel tedy má nanejvýš dva potomky – levého a pravého.

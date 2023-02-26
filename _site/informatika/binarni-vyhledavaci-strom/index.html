@@ -9,9 +9,12 @@
         <link rel="stylesheet" href="/assets/pico.css">
         <link rel="stylesheet" href="/assets/prism.css">
         <style>
-            img {
+            img:not([data-img-type="icon"]) {
                 margin: auto;
                 display: block;
+            }
+            li {
+                margin-left: 1rem;
             }
         </style>
     </head>
@@ -49,11 +52,12 @@
             <hr style="margin: 2rem 0;">
             
 
+
+            <h1>Binární vyhledávací strom</h1>
+
             <section>
 
-            <h1 id="binární-vyhledávací-strom">Binární vyhledávací strom</h1>
-
-<p>Binární vyhledávací strom (BST – z angl. Binary Search Tree) je datová struktura založená na binárním stromu, v němž jsou jednotlivé prvky (uzly) uspořádány tak, aby v tomto stromu bylo možné rychle vyhledávat danou hodnotu. To zajišťují tyto vlastnosti:</p>
+            <p>Binární vyhledávací strom (BST – z angl. Binary Search Tree) je datová struktura založená na binárním stromu, v němž jsou jednotlivé prvky (uzly) uspořádány tak, aby v tomto stromu bylo možné rychle vyhledávat danou hodnotu. To zajišťují tyto vlastnosti:</p>
 
 <ul>
   <li>Jedná se o binární strom, každý uzel tedy má nanejvýš dva potomky – levého a pravého.</li>
