@@ -15,7 +15,9 @@ Název je od perského matematika Al-Chorezmí (9. století).
 Teoretický princip řešení programu (nejen programu, ale i například skládání rubikovy kostky).
 
 Například kuchařka je též algoritmus pro kuchaře na přípravu jídla.
-# **Vlastnosti algoritmu**
+
+## **Vlastnosti algoritmu**
+
 **Elementárnost**
 
 Algoritmus se skládá z konečného počtu jednoduchých (elementárních) kroků.
