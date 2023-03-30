@@ -30,4 +30,4 @@ permalink: /informatika/
 24. [Základní metody vyhledávání a třídění*](/informatika/zakladni-metody-vyhledavani-a-trideni/)
 25. [Záznamová média a zálohování dat, komprimace](/informatika/zaznamova-media-a-zalohovani-dat-komprimace/)
 
-\*otázka ještě není hotová
+*\*otázka ještě není hotová*

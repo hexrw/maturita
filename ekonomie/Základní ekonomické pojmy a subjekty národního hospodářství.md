@@ -154,12 +154,12 @@ Subjekty národního hospodářství
 
 ### Domácnosti
 
-Domácnosti
+Subjekt, který uspokojuje své potřeby, nakupuje výrobky a služby a prodává svou pracovní sílu. Cílem je maximalizace svého užitku.
 
 ### Firmy
 
-Firmy
+Subjekt, který prodává výrobky a služby a nakupuje výrobní faktory. Jejich cílem je maximalizace svého zisku.
 
 ### Stát
 
-Stát
+Subjekt, který vybírá daně, sestavuje státní rozpočet, přerozděluje veřejné finance, vytváří legislativu

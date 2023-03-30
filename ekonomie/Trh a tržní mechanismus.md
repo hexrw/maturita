@@ -194,33 +194,23 @@ Subjekty trhu:
 
 ### Ekonomický koloběh
 
-Stát
-Trh statků a služeb
-Domácnosti
-FIRMY
-Výrobní faktory
+![Ekonomický koloběh](/assets/tatm-1.png)
 
 
+#### Úloha státu v tržní ekonomice
 
-Úloha státu v tržní ekonomice
 1. Působit na harmonický a stabilní rozvoj společnosti
 2. Zajistit právní jistotu a bezpečí
 3. Vytvářet podmínky pro úspěšné podnikání
 4. Hospodářská úloha – stát sám podniká
-
-
-
-39
-Úloha státu v tržní ekonomice
 5. Určovat pravidla hospodářské soutěže (konkurenční boj)
 6. Zajišťovat stabilitu měny
 7. Vytvářet podmínky pro zahraniční obchod
 8. Vymezovat cíle ekonomického rozvoje
 
-40
-Cíle hospodářské politiky
+#### Cíle hospodářské politiky
 
-Ekonomický růst
-Zaměstnanost
-Stabilita cen
-Rovnováha v zahraničním obchodě
+1. Ekonomický růst
+2. Zaměstnanost
+3. Stabilita cen
+4. Rovnováha v zahraničním obchodě
