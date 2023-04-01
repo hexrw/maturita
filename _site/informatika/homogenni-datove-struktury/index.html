@@ -59,7 +59,66 @@
 
             <section>
 
-            
+            <blockquote>
+  <p>Datová struktura: konkrétní způsob organizace dat v paměti počítače, který zajišťuje, aby mohla data být používána efektivně, v počítači jsou reprezentovány datovými typy.</p>
+</blockquote>
+
+<p>Homogenní datová struktura: umožňuje uchovávat a zpracovávat množinu dat stejného typu.</p>
+
+<h2 id="typy-datových-struktur">Typy datových struktur</h2>
+
+<h3 id="pole-array">Pole (array)</h3>
+
+<p>Pole si můžeme představit jako uspořádanou matici prvků určitého datového typu.  Prvky dat jsou uloženy do paměti v navazujících blocích za sebe, a jsou identifikovány pomocí indexu. Pozici prvku v paměti pak lze dopočítat (adresa počátku pole + index * velikost prvku).</p>
+
+<ul>
+  <li>Pole mohou mít libovolný počet rozměrů. Nejjednodušším typem jsou lineární pole</li>
+  <li>Přístup k prvkům více rozměrného pole se řeší použitím více indexů podobně jako u matic.</li>
+  <li><strong>Statická pole</strong> - pole s pevným počtem prvků</li>
+  <li><strong>Dynamická pole</strong> - pole s proměnlivým počtem prvků</li>
+</ul>
+
+<h3 id="spojový-seznam-linked-list">Spojový seznam (linked list)</h3>
+
+<p>Datová struktura určená k ukládání dat předem neznámé délky. Spojové seznamy jsou tvořeny vzájemně propojenými uzly. Každý uzel obsahuje jeden datový prvek a jeden nebo více ukazatelů na další uzly.</p>
+
+<ul>
+  <li>Na základě použitých ukazatelů rozlišujeme několik druhů spojových seznamů.
+    <ul>
+      <li>Jednosměrný</li>
+      <li>Obousměrný</li>
+      <li>Kruhový</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="fronta-queue">Fronta (queue)</h3>
+
+<blockquote>
+  <p>Datová struktura s proměnlivým počtem zařazených prvků fungující na principu fifo (first in first out). Prvek uložený ve frontě jako první, je jako první na řadě pro výběr. Fronta aktivně pracuje pouze s prvním a posledním zařazeným prvkem.</p>
+</blockquote>
+
+<ul>
+  <li>K tomuto účelu používá sadu tří základních operací:
+    <ul>
+      <li>Zařazení prvků
+        <ul>
+          <li>Vyřazení prvků</li>
+          <li>Test prázdnoty</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Existují i prioritní fronty, ve kterých se prvky řadí podle priority, z fronty je pak vytáhnut jako první prvek s největší prioritou.</li>
+</ul>
+
+<p><strong>Mezi další datové struktury patří:</strong></p>
+<ul>
+  <li>Zásobník (stack)</li>
+  <li>Stromové struktury (Tree)</li>
+  <li>Grafy</li>
+  <li>Hashe</li>
+</ul>
 
 
             
