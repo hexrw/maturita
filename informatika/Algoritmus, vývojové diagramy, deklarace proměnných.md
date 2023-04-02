@@ -89,22 +89,24 @@ Paralelní algoritmus vykonává kroky zároveň (ve více vlákech).
 **Distribuovaný**
 
 Distribuovaný algoritmus kroky vykonává zároveň na více strojích.
-1. # **Složitost algoritmu**
+
+### Složitost algoritmu
+
 Je třeba poznamenat, že abstraktní kritérium konečnosti je pro praktické použití ještě příliš slabé. V praxi je třeba zajistit, aby algoritmus skončil „v rozumném“ čase. Za rozumný čas lze v praxi považovat takový čas, který nám umožní smysluplně využít výsledek.
 
 Např. existuje jednoduchý algoritmus, který dokáže určit, zda v dané šachové pozici může hráč na tahu vynutit vítězství a zároveň dokáže určit nejlepší možný tah. Tento algoritmus se však nedá použít, protože by na svou činnost potřeboval ohromné množství času, jakkoli je toto množství konečné. Mimoto by takový algoritmus spotřeboval ohromné množství paměti, což je další praktický zřetel, který se uplatňuje při volbě algoritmu. I když průměrná počítačová paměť stále narůstá, pro některé algoritmy jí nebude nikdy dost.
 
 Pro vyčíslení výpočetní složitosti algoritmů v závislosti na velikosti vstupních dat se používá asymptotický zápis závislosti výpočetního času na rozsahu úlohy (typicky na počtu vstupních údajů). Například O(log N) znamená, že počet kroků algoritmu závisí logaritmicky na velikosti vstupních dat. Pokud u takového algoritmu zdvojnásobíme rozsah vstupních údajů, doba výpočtu se zvýší o jednu jednotku času, pokud bude vstupních dat čtyřikrát více, doba výpočtu se prodlouží o dvě jednotky času, a tak dále. To je třeba případ nalezení jednoho prvku o určité hodnotě v seznamu prvků seřazeném podle hodnoty (např. nalezení jména v telefonním seznamu).
 
-**Asymptotická složitost algoritmu**
+#### Asymptotická složitost algoritmu
 
 Asymptotická složitost algoritmu charakterizuje počet provedených operací v závislosti na velikosti dat. Například pokud procházíme pole, pak složitost bude lineární (na každý prvek připadá konstantní množství operací), pokud jej ovšem řadíme například bubble sortem, pak složitost bude kvadratická (na *n* prvků bude připadat *n2* operací).
 
-**Třída složitosti**
+#### Třída složitosti
 
 Třída složitosti stanovuje obtížnost rozhodnutelnosti daného problému na Turingově stroji.
 
-Třída P
+**Třída P**
 
 Obsahuje problémy rozhodnutelné v polynomiálním čase.
 
@@ -112,7 +114,7 @@ Obsahuje problémy rozhodnutelné v polynomiálním čase.
 
 *Existuje v daném acyklickém grafu mezi uzly a a b cesta, jejíž délka je nejvýše k?*
 
-Třída NP
+**Třída NP**
 
 Obsahuje problémy, které jsou rozhodnutelné pomocí nedeterministického Turingova stroje v polynomiálním čase – tzn. jsme schopni ověřit jejich řešení v polynomiálním čase.
 
@@ -123,7 +125,9 @@ Obsahuje problémy, které jsou rozhodnutelné pomocí nedeterministického Turi
 *Existuje v daném grafu klika o alespoň k vrcholech?*
 
 *Hierarchie tříd složitosti*
-# **Paradigmata návrhu algoritmů**
+
+## **Paradigmata návrhu algoritmů**
+
 **Rozděl a panuj**
 
 Klasický případ aplikace postupu odshora dolů. Algoritmy typu rozděl a panuj dělí problém na menší podproblémy, na něž se rekurzivně aplikují (až po triviální podproblémy, které lze vyřešit přímo), po čemž se dílčí řešení vhodným způsobem sloučí.

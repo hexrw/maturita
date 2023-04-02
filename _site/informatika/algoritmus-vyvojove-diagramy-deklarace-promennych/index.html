@@ -144,26 +144,24 @@
 <p><strong>Distribuovaný</strong></p>
 
 <p>Distribuovaný algoritmus kroky vykonává zároveň na více strojích.</p>
-<ol>
-  <li>
-    <h1 id="složitost-algoritmu"><strong>Složitost algoritmu</strong></h1>
-    <p>Je třeba poznamenat, že abstraktní kritérium konečnosti je pro praktické použití ještě příliš slabé. V praxi je třeba zajistit, aby algoritmus skončil „v rozumném“ čase. Za rozumný čas lze v praxi považovat takový čas, který nám umožní smysluplně využít výsledek.</p>
-  </li>
-</ol>
+
+<h3 id="složitost-algoritmu">Složitost algoritmu</h3>
+
+<p>Je třeba poznamenat, že abstraktní kritérium konečnosti je pro praktické použití ještě příliš slabé. V praxi je třeba zajistit, aby algoritmus skončil „v rozumném“ čase. Za rozumný čas lze v praxi považovat takový čas, který nám umožní smysluplně využít výsledek.</p>
 
 <p>Např. existuje jednoduchý algoritmus, který dokáže určit, zda v dané šachové pozici může hráč na tahu vynutit vítězství a zároveň dokáže určit nejlepší možný tah. Tento algoritmus se však nedá použít, protože by na svou činnost potřeboval ohromné množství času, jakkoli je toto množství konečné. Mimoto by takový algoritmus spotřeboval ohromné množství paměti, což je další praktický zřetel, který se uplatňuje při volbě algoritmu. I když průměrná počítačová paměť stále narůstá, pro některé algoritmy jí nebude nikdy dost.</p>
 
 <p>Pro vyčíslení výpočetní složitosti algoritmů v závislosti na velikosti vstupních dat se používá asymptotický zápis závislosti výpočetního času na rozsahu úlohy (typicky na počtu vstupních údajů). Například O(log N) znamená, že počet kroků algoritmu závisí logaritmicky na velikosti vstupních dat. Pokud u takového algoritmu zdvojnásobíme rozsah vstupních údajů, doba výpočtu se zvýší o jednu jednotku času, pokud bude vstupních dat čtyřikrát více, doba výpočtu se prodlouží o dvě jednotky času, a tak dále. To je třeba případ nalezení jednoho prvku o určité hodnotě v seznamu prvků seřazeném podle hodnoty (např. nalezení jména v telefonním seznamu).</p>
 
-<p><strong>Asymptotická složitost algoritmu</strong></p>
+<h4 id="asymptotická-složitost-algoritmu">Asymptotická složitost algoritmu</h4>
 
 <p>Asymptotická složitost algoritmu charakterizuje počet provedených operací v závislosti na velikosti dat. Například pokud procházíme pole, pak složitost bude lineární (na každý prvek připadá konstantní množství operací), pokud jej ovšem řadíme například bubble sortem, pak složitost bude kvadratická (na <em>n</em> prvků bude připadat <em>n2</em> operací).</p>
 
-<p><strong>Třída složitosti</strong></p>
+<h4 id="třída-složitosti">Třída složitosti</h4>
 
 <p>Třída složitosti stanovuje obtížnost rozhodnutelnosti daného problému na Turingově stroji.</p>
 
-<p>Třída P</p>
+<p><strong>Třída P</strong></p>
 
 <p>Obsahuje problémy rozhodnutelné v polynomiálním čase.</p>
 
@@ -171,7 +169,7 @@
 
 <p><em>Existuje v daném acyklickém grafu mezi uzly a a b cesta, jejíž délka je nejvýše k?</em></p>
 
-<p>Třída NP</p>
+<p><strong>Třída NP</strong></p>
 
 <p>Obsahuje problémy, které jsou rozhodnutelné pomocí nedeterministického Turingova stroje v polynomiálním čase – tzn. jsme schopni ověřit jejich řešení v polynomiálním čase.</p>
 
@@ -182,7 +180,9 @@
 <p><em>Existuje v daném grafu klika o alespoň k vrcholech?</em></p>
 
 <p><em>Hierarchie tříd složitosti</em></p>
-<h1 id="paradigmata-návrhu-algoritmů"><strong>Paradigmata návrhu algoritmů</strong></h1>
+
+<h2 id="paradigmata-návrhu-algoritmů"><strong>Paradigmata návrhu algoritmů</strong></h2>
+
 <p><strong>Rozděl a panuj</strong></p>
 
 <p>Klasický případ aplikace postupu odshora dolů. Algoritmy typu rozděl a panuj dělí problém na menší podproblémy, na něž se rekurzivně aplikují (až po triviální podproblémy, které lze vyřešit přímo), po čemž se dílčí řešení vhodným způsobem sloučí.</p>
@@ -330,5 +330,11 @@
         </div>
 
         <script src="/assets/prism.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script>
+        
+        anchors.add("h1, h2, h3, h4, h5, h6")
+        
+        </script>
     </body>
 </html>
