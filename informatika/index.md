@@ -25,9 +25,9 @@ permalink: /informatika/
 19. [Tabulkové kalkulátory, textové editory*](/informatika/tabulkove-kalkulatory-textove-editory/)
 20. [Teorie grafů, backtracking*](/informatika/teorie-grafu-backtracking/)
 21. [Tvorba webových stránek](/informatika/tvorba-webovych-stranek/)
-22. [Úplný a neúplný podmíněný příkaz*](/informatika/uplny-a-neuplny-podmineny-prikaz/)
+22. [Úplný a neúplný podmíněný příkaz](/informatika/uplny-a-neuplny-podmineny-prikaz/)
 23. [Vektorová počítačová grafika](/informatika/vektorova-pocitacova-grafika/)
-24. [Základní metody vyhledávání a třídění*](/informatika/zakladni-metody-vyhledavani-a-trideni/)
+24. [Základní metody vyhledávání a třídění](/informatika/zakladni-metody-vyhledavani-a-trideni/)
 25. [Záznamová média a zálohování dat, komprimace](/informatika/zaznamova-media-a-zalohovani-dat-komprimace/)
 
 *\*otázka ještě není hotová*

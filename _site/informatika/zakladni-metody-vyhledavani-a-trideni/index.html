@@ -61,12 +61,16 @@
 
             <h2 id="vyhledávání">Vyhledávání</h2>
 
+<p>*složitostí je v následujících textech myšlena <a href="/informatika/algoritmus-vyvojove-diagramy-deklarace-promennych/#asymptotická-složitost-algoritmu">asymptotická složitost</a></p>
+
 <h3 id="vyhledávání-v-poli">Vyhledávání v poli</h3>
 
 <h4 id="lineární-vyhledávání">Lineární vyhledávání</h4>
 
+<p><em>(sekvenční)</em></p>
+
 <blockquote>
-  <p>Lineární (sekvenční) vyhledávání je nejjednodušším způsobem, jak zjistit, jestli se v poli (nebo jiné datové struktuře) nachází námi hledaný prvek. Princip je zcela triviální, procházíme jeden prvek po druhém a zjišťujeme, jestli to není právě ten, který hledáme. Z tohoto vyplývá složitost tohoto postupu - <strong><em>O(n)</em></strong>.</p>
+  <p>Nejjednodušší způsob, jak zjistit, jestli se v poli (nebo jiné datové struktuře) nachází hledaný prvek. Princip je triviální, procházíme jeden prvek po druhém a zjišťujeme, jestli to není právě ten, který hledáme. Složitost <strong><em>O(n)</em></strong>.</p>
 </blockquote>
 
 <p><strong>Využití</strong> - Lineární vyhledávání použijeme tehdy, pokud nemáme žádné informace o uspořádání prvků struktury nebo pokud nám datová struktura (například spojový seznam) neumožňuje efektivnější způsob vyhledávání.</p>
@@ -74,22 +78,22 @@
 <h4 id="binární-vyhledávání">Binární vyhledávání</h4>
 
 <blockquote>
-  <p>Binární vyhledávání (půlení intervalu) je vyhledávací technika, která zjišťuje pozici zadaného prvku v seřazeném poli. Na rozdíl od sekvenčního vyhledávání, které vyžaduje až O(n) operací, binární vyhledávání pracuje s asymptotickou složitostí <strong><em>O(log<sub>2</sub>(n))</em></strong>.</p>
+  <p>Binární vyhledávání (půlení intervalu) je vyhledávací technika, která zjišťuje pozici zadaného prvku v seřazeném poli. Na rozdíl od sekvenčního vyhledávání, které vyžaduje až <strong><em>O(n)</em></strong> operací, binární vyhledávání pracuje s asymptotickou složitostí <strong><em>O(log<sub>2</sub>(n))</em></strong>.</p>
 </blockquote>
 
 <h5 id="princip">Princip</h5>
 
-<p>Mějme sestupně seřazené pole a hledejme v něm prvek h. Binární vyhledávání v každém svém kroku zvolí prostřední prvek pole <strong><em>(p)</em></strong> a porovná jej s prvkem h. Pokud jsou tyto prvky totožné, tak vrátí index prvku p. Pokud má hledaný prvek vyšší hodnotu než <strong><em>p</em></strong>, tak je zřejmé, že h se musí nacházet v levé části pole. V opačném případě <strong><em>(p &gt; h)</em></strong> se hledaný prvek musí nacházet v pravé části pole. Binární vyhledávání proto zavolá sebe sama na příslušnou perspektivní polovinu pole.</p>
+<p>Mějme sestupně seřazené pole a hledejme v něm prvek <strong><em>h</em></strong>. Binární vyhledávání v každém svém kroku zvolí prostřední prvek pole <strong><em>(p)</em></strong> a porovná jej s prvkem <strong><em>h</em></strong>. Pokud jsou tyto prvky totožné, tak vrátí index prvku <strong><em>p</em></strong>. Pokud má hledaný prvek vyšší hodnotu než <strong><em>p</em></strong>, tak je zřejmé, že <strong><em>h</em></strong> se musí nacházet v levé části pole. V opačném případě <strong><em>(p &gt; h)</em></strong> se hledaný prvek musí nacházet v pravé části pole. Binární vyhledávání proto zavolá sebe sama na příslušnou perspektivní polovinu pole.</p>
 
 <p>Protože dochází v každém kroku k půlení prohledávaného intervalu (a druhá polovina se nezpracovává), tak musí dojít k nalezení (nebo vyvrácení přítomnosti) hledaného prvku nejpozději v <strong><em>log<sub>2</sub>(n)</em></strong> krocích.</p>
 
 <h4 id="interpolační-vyhledávání">Interpolační vyhledávání</h4>
 
 <blockquote>
-  <p>Interpolační vyhledávání je vylepšením binárního vyhledávání pro případ, kdy víme, že jsou čísla v poli nejen seřazená, ale také rovnoměrně rozložená.</p>
+  <p>Vylepšení binárního vyhledávání pro případ, kdy víme, že jsou čísla v poli seřazená a rovnoměrně rozložená.</p>
 </blockquote>
 
-<p><strong>Princip</strong> - Interpolační vyhledávání vychází z úvahy, že pokud máme v poli například čísla od 0 do 100 a hledáme číslo 2, tak je přinejmenším nerozumné pole binárně dělit (napřed se podívat na index 50, pak 25, pak 12…), ale je daleko rozumnějsí se podívat někam kolem indexu 2, kde by se číslo mělo nacházet (vzhledem k rovnoměrnému rozložení). Složitost tohoto přístupu je <strong><em>O(log(log(n))</em></strong>.</p>
+<p><strong>Princip</strong> - vychází z úvahy, že pokud máme v poli například čísla od 0 do 100 a hledáme číslo 2, tak je nerozumné pole binárně dělit (napřed se podívat na index 50, pak 25, pak 12…), je daleko rozumnějsí se podívat někam kolem indexu 2, kde by se číslo mělo nacházet (vzhledem k rovnoměrnému rozložení). Složitost tohoto přístupu je <strong><em>O(log(log(n))</em></strong>.</p>
 
 <h4 id="prořezávej-a-hledej">Prořezávej a hledej</h4>
 
@@ -97,7 +101,7 @@
   <p>Prořezávej a hledej (<em>Prune and search</em>) je typ algoritmu založený na vyřazování neperspektivních dat – redukci velikosti problému. Toto paradigma je velmi podobné algoritmům typu rozděl a panuj (<em>divide and conquer</em>), zásadní rozdíl je ovšem v tom, že při prořezávání neprocházíme všechny větve, ale pouze ty, které pro nás dávají smysl.</p>
 </blockquote>
 
-<p><strong>Příklad</strong> - Pokud hledáme n-té nejvyšší číslo v neseřazeném poli, tak by řešením zajisté bylo pole seřadit a podívat se na zadaný index. Toto řešení ovšem není příliš efektivní. Lepším řešením je upravit například Quicksort tak, aby se po rozdělení pole dle pivota prohledávala pouze ta část, která obsahuje řešení - Quicksort v každém svém kroku umístí pivota na korektní místo v seřazeném poli, není proto problém rozhodnout, ve které části se nachází ono hledané číslo.</p>
+<p><strong>Příklad</strong> - Pokud hledáme <strong><em>n</em></strong>-té nejvyšší číslo v neseřazeném poli, tak by řešením zajisté bylo pole seřadit a podívat se na zadaný index. Toto řešení ovšem není příliš efektivní. Lepším řešením je upravit například Quicksort tak, aby se po rozdělení pole dle pivota prohledávala pouze ta část, která obsahuje řešení - Quicksort v každém svém kroku umístí pivota na korektní místo v seřazeném poli, není proto problém rozhodnout, ve které části se nachází ono hledané číslo.</p>
 
 <p><strong>Složitost</strong> - Zatímco <a href="/informatika/algoritmus-vyvojove-diagramy-deklarace-promennych/#asymptotická-složitost-algoritmu">asymptotická složitost</a> Quicksortu je <strong><em>O(n<sup>2</sup>)</em></strong> a očekáváná <strong><em>O(n * log(n))</em></strong>, tak díky eliminaci větví, které nemohou obsahovat řešení, je očekávaná složitost prune and search algoritmu <strong><em>O(c * n)</em></strong>, kde c je malá konstanta.</p>
 
@@ -105,42 +109,265 @@
 
 <h4 id="naivní-algoritmus">Naivní algoritmus</h4>
 
+<p>Slouží k vyhledání výskytu daného vzoru v textu. Prochází jak text, tak vzor zepředu a porovnává, jestli jsou totožné (na <strong><em>m</em></strong> místech vzoru). Pokud ano, tak byl výskyt nalezen, pokud ne, tak se vzorem posune o 1 místo doprava a postup se opakuje (dokud algoritmus nenarazí na konec textu). Složitost tohoto postupu je <strong><em>O(m * n)</em></strong>, kde <strong><em>m</em></strong> je délka vzoru a <strong><em>n</em></strong> je délka textu.</p>
+
 <h4 id="hammingova-vzdálenost">Hammingova vzdálenost</h4>
 
+<p>Hammingova vzdálenost dvou řetězců značí, na kolika pozicích se liší. Například dvojice slov <em>(pes les)</em> má Hammingovu vzdálenost 1, protože se liší pouze v prvním znaku, dvojice <em>(pes luk)</em> má Hammingovu vzdálenost 3, protože se liší na všech 3 pozicích.</p>
+
+<h5 id="vyhledávání-podřetězců">Vyhledávání podřetězců</h5>
+
+<p>Problém nalezení všech podřetězců daného textu, které mají určitou maximální Hammingovu vzdálenost od vzoru, se obvykle řeší dynamickým programováním. Jedná se o stavbu jednoduché tabulky, která má počet řádků stejný jako je délka vzoru a počet sloupců rovný délce prohledávaného textu.</p>
+
+<p>Tabulka se vyplňuje následujícím způsobem. Pokud se vzor a text shodují na pozici <strong><em>(i, j)</em></strong>, pak tabulka na této pozici obsahuje stejnou hodnotu, jako na pozici <strong><em>(i-1, j-1)</em></strong>, v opačném případě je tato hodnota inkrementována o 1 (tato změna říká, že aby byly řetězce stejné, tak musí dojít k substituci - Hammingova vzdálenost se proto zvyšuje o 1). Řekneme, že daná pozice je výskytem vzoru, pokud je na posledním řádku odpovídajícího sloupce číslo nižší nebo rovné dané vzdálenosti.</p>
+
+<p>Nyní zbývá jen říci, jaké jsou počáteční hodnoty v tabulce. Nultý sloupec tabulky obsahuje nekonečno (nebo jednodušeji hodnotu vyšší, než je maximální povolená vzdálenost), protože značí situaci, kdy ze vstupního řetězce není ještě přečten žádný znak (Hammingova vzálenost není definována pro “oříznutý” podřetězec). Nultý řádek tabulky obsahuje nuly - tímto se definuje, že budou vyhledávány výskyty na všech pozicích.</p>
+
 <h4 id="levenshteinova-vzdálenost">Levenshteinova vzdálenost</h4>
+
+<p>Levenshteinova vzdálenost (Levenshtein distance, editační vzdálenost) je vzdálenost dvou řetězců definovaná jako minimální počet operací vkládání, mazání a substituce takových, aby po jejich provedení byly zadané řetězce totožné. Levenshteinovu vzdálenost zavedl v roce 1965 Vladimir Levenshtein.</p>
+
+<p><strong>Vyhledávání podřetězců</strong> - Vyhledávání podřetězců v zadané Levenshteinově vzdálenosti funguje na principu dynamického programování, které je velmi podobné vyhledávání podřetězců v dané Hammingově vzdálenosti – jedná se o stavbu tabulky, která má stejný počet počet řádků jako má hledaný vzor písmen a počet sloupců odpovídá délce prohledávaného textu.</p>
 
 <h2 id="třídění">Třídění</h2>
 
 <h4 id="bubble-sort">Bubble sort</h4>
 
+<p>Bubble sort (bublinkové řazení) je jednoduchý stabilní řadící algoritmem se složitostí <strong><em>O(n<sup>2</sup>)</em></strong>. Vylepšením bubble sortu je <a href="#shakersort">shakersort</a> (oboustranný bubble sort).</p>
+
+<h5 id="princip-1">Princip</h5>
+
+<p>Pokud si představíme řazená čísla jako bublinky, tak ty s menší hodnotou jsou lehčí než ty s vyšší hodnotou a stoupají proto ve vodě rychleji.</p>
+
+<p>Obdobně postupuje také bubble sort. Porovnává dva sousední prvky, a pokud je nižší číslo nalevo od vyššího, tak je prohodí (nižší číslo je lehčí a rychleji stoupá ke konci pole) a se stejnou logikou pokračuje na dalším indexu. Pokud jsou čísla ve správném pořadí, tak je neprohodí – pouze postoupí dále (algoritmus tím našel lehčí bublinku). Na konci iterace se tímto způsobem na konec pole vždy dostane ta nejlehčí bublinka (nejnižší číslo). Nyní algoritmus můžeme pustit znovu na redukovaný problém (na poslední pozici pole je již to správné číslo).</p>
+
+<p>Po <strong><em>n-1</em></strong> průchodech (poslední bublinka je seřazena triviálně) je pole seřazeno.</p>
+
+<p><strong>Nevýhody:</strong></p>
+<ul>
+  <li><strong>Problém želv a zajíců</strong> - Zatímco se aktuálně nejlehčí bublinka může přesunout při své iteraci ve směru řazení i přes celé pole (zajíc), tak se těžké bublinky hnou v každé iteraci maximálně o jednu pozici (želvy).</li>
+</ul>
+
+<p><strong>Příklad</strong></p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="mi">3</span> <span class="mi">2</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">//zadání pole, řaďmě od největšího k nejmenšímu</span>
+<span class="p">(</span><span class="mi">3</span> <span class="mi">2</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// 3 a 2 jsou v korektním pořadí, posuňme se o index</span>
+<span class="p">(</span><span class="mi">3</span> <span class="mi">2</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// 8 &gt; 2, prohoďme je</span>
+<span class="p">(</span><span class="mi">3</span> <span class="mi">8</span> <span class="mi">2</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// 7 &gt; 2, prohoďme je (zde je vidět probublávání nejlehčí dvojky vzhůru)</span>
+<span class="p">(</span><span class="mi">3</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">2</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// 6 &gt; 2, prohoďme je</span>
+<span class="p">(</span><span class="mi">3</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// nový průchod polem: na posledním místě je nejlehčí prvek, tudíž se nám řazená úloha o jedna zkrátila, 8 &gt; 3, prohoďme je</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">3</span> <span class="mi">7</span> <span class="mi">6</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// 7 &gt; 3, prohoďme je</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">7</span> <span class="mi">3</span> <span class="mi">6</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// 6 &gt; 3, prohoďme je</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span> <span class="mi">3</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// seřazeno </span>
+</code></pre></div></div>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" alt="Bubble sort" /></p>
+
 <h4 id="selection-sort">Selection sort</h4>
+
+<p>Selection sort (řazení výběrem) je jednoduchý nestabilní řadící algoritmus se složitostí <strong><em>O(n<sup>2</sup>)</em></strong>. V porovnání s dalšími kvadratickými algoritmy je selection sort v obecném případě rychlejší než bubble sort, avšak pomalejší než <a href="#insertion-sort">insertion sort</a>. Výhodou selection sortu oproti algoritmům s asymptotickou složitostí <strong><em>O(n * log(n))</em></strong> (<a href="#quicksort">quicksort</a>, <a href="#merge-sort">merge sort</a>, <a href="#heapsort">heapsort</a>) je jeho konstantní paměťová složitost.</p>
+
+<p><strong>Princip</strong> - Selection sort vychází z myšlenky, že pokud řadíme pole od největšího prvku k nejmenšímu, tak první bude nejvyšší prvek, za ním nejvyšší prvek ze zbytku pole atd., čili stačí pouze postupně vybírat nejvyšší prvky z neseřazené části pole a umísťovat je na konec seřazené části.</p>
+
+<p><strong>Příklad</strong></p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="mi">3</span> <span class="mi">2</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// zadání pole, řaďmě od největšího k nejmenšímu</span>
+<span class="p">(</span><span class="mi">3</span> <span class="mi">2</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// nejvyšší číslo je 8, prohoďme ho tedy s číslem 3 na indexu 0</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">2</span> <span class="mi">3</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// nejvyšší číslo je 7, prohoďme ho tedy s číslem 2 na indexu 1</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">7</span> <span class="mi">3</span> <span class="mi">2</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// nejvyšší číslo je 6, prohoďme ho tedy s číslem 3 na indexu 2</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span> <span class="mi">2</span> <span class="mi">3</span><span class="p">)</span> <span class="c1">// nejvyšší číslo je 3, prohoďme ho tedy s číslem 2 na indexu 3</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span> <span class="mi">3</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// seřazeno </span>
+</code></pre></div></div>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif" alt="Selection sort" /></p>
 
 <h4 id="insertion-sort">Insertion sort</h4>
 
+<p>Insertion sort (řazení vkládáním) je stabilní řadící algoritmus založený na principu porovnávání řazených hodnot se složitostí <strong><em>O(n<sup>2</sup>)</em></strong>. Vylepšením Insertion sortu je výkonnější, ale nestabilní, <a href="#shell-sort">shell sort</a>.</p>
+
+<p><strong>Princip</strong> - Insertion sort využívá tohoto myšlenkového postupu:</p>
+<ul>
+  <li>Mějmě jeden prvek, ten je triviálně seřazen.</li>
+  <li>Vezměme následující prvek a zařaďme jej na správné místo v již seřazených prvcích. (Tímto je nyní seřazeno o jeden prvek více než v předchozím kroku.)</li>
+  <li>Dokud pole obsahuje nezařazené prvky, tak <strong>GOTO: 2</strong>.</li>
+</ul>
+
+<p><strong>Výhody Insertion sortu</strong> - Ač se jedná o řazení se složitostí <strong><em>O(n<sup>2</sup>)</em></strong>, tak se u téměř seřazeného pole jeho složitost blíží k <strong><em>O(n)</em></strong> – nedochází k posunům, pouze k průchodu. Díky k této výkonnostní výhodě je insertion sort a jeho modifikace často používán jako doplněk k řadícím algoritmům typu rozděl a panuj (quicksort, merge sort) pro řazení malých polí (pro <strong><em>n ≤ 10</em></strong> je insertion sort rychlejší než quicksort).</p>
+
+<p><strong>Příklad</strong></p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="mi">3</span> <span class="mi">2</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// Zadání, prvek 3 je triviálně seřazen</span>
+<span class="p">(</span><span class="mi">3</span> <span class="mi">2</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// Vezmeme dvojku a vložíme jí na správné místo (tam už je)</span>
+<span class="p">(</span><span class="mi">3</span> <span class="mi">2</span> <span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// 8 vložíme na první místo, zbytek čísel posuneme</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">3</span> <span class="mi">2</span> <span class="mi">7</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// 7 vložíme mezi 8 a 3, 3 a 2 posuneme</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">7</span> <span class="mi">3</span> <span class="mi">2</span> <span class="mi">6</span><span class="p">)</span> <span class="c1">// 6 vložíme mezi 7 a 3, čísla 3 a 2 posuneme</span>
+<span class="p">(</span><span class="mi">8</span> <span class="mi">7</span> <span class="mi">6</span> <span class="mi">3</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// seřazeno </span>
+</code></pre></div></div>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif" alt="Insertion sort" /></p>
+
 <h4 id="quicksort">Quicksort</h4>
+
+<p>Quicksort je velmi rychlý nestabilní řadící algoritmus na principu <em>Divide et Impera</em> (rozděl a panuj) s asymptotickou složitostí <strong><em>O(n<sup>2</sup>)</em></strong> a s očekávanou složitostí <strong><em>O(n * log(n))</em></strong>.</p>
+
+<p><strong>Princip</strong> - Zvolme v zadaném poli libovolný prvek a říkejme mu pivot. Nyní můžeme pole přeházet tak, aby na jedné straně byly prvky větší než pivot, na druhé menší než pivot a pivot samotný byl umístěn přesně mezi těmito částmi. Tento postup můžeme zopakovat pro obě rozdělené části (bez pivota, ten je již umístěn na správném místě). Proceduru opakujeme tak dlouho, dokud nenarazíme na všechny triviálně řešitelné podproblémy (pole velikosti 1). V tento okamžik je celé pole seřazeno od nejvyššího prvku.</p>
+
+<p><img src="https://algoritmy.net/image/id/1206" alt="Quicksort" /></p>
+
+<p><strong>Výkonnost quicksortu</strong> je dána především volbou dobrého pivota. Pokud jej volíme ideálně, tak dojde při každém rekurzívním volání k rozpůlení pole a vystačíme si tedy s <strong><em>log<sub>2</sub>(n)</em></strong> voláními, v nichž popřehazujeme až n prvků. Složitost tohoto případu je proto <strong><em>O(n * log<sub>2</sub>(n))</em></strong>.</p>
+
+<p>Na druhou stranu, <strong>pokud</strong> nemáme štěstí a <strong>pivota volíme špatně</strong> (tj. nejvyšší nebo nejnižší možný prvek), tak nedojde k žádnému dělení podproblému, pouze dojde vždy k zařazení pivota na správné místo. Při každém z n volání procedury spotřebujeme až n operací na ověření pořadí, případně na přesun prvků. Složitost tohoto patologického případu je proto <strong><em>O(n<sup>2</sup>)</em></strong>.</p>
+
+<h5 id="volba-pivota">Volba pivota</h5>
+
+<p>Pro volbu pivota existuje mnoho strategií. Jednou z nich je volba fixního prvku (tj. prvního, posledního…). Tento postup je problematický na částečně uspořádaných polích, případně na polích s nějakou strukturou, kde nedochází k optimálnímu dělení problému a složitost narůstá až k <strong><em>n<sup>2</sup></em></strong>. Tomuto chování se lze vyhnout volbou mediánu prvního, posledního a prostředního prvku řazeného úseku pole.</p>
+
+<p>Druhou populární strategii je volba náhodného prvku. Zde je problémem již zajištění samotné náhodnosti volby, respektive opakující se vzory v chování generátoru čísel (v extrémním případě může strategie degradovat až k poněkud komplikovanější volbě fixního prvku). V praxi se ale ukazuje, že bohatě postačí i pseudonáhodné generátory.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif" alt="Quicksort" /></p>
 
 <h4 id="merge-sort">Merge sort</h4>
 
+<p>Mergesort je stabilní řadicí algoritmus typu rozděl a panuj s asymptotickou složitostí <strong><em>O(n * log(n))</em></strong>. Merge sort pracuje na bázi slévání již seřazených částí pole za pomoci dodatečného pole velikosti n.</p>
+
+<p><strong>Operace:</strong></p>
+
+<ul>
+  <li><strong>Slévání (merge)</strong> dvou seřazených polí do jednoho pole
+    <ul>
+      <li>Slévá vždy dvě sousední části pole. Drží si dva ukazatele, každý na první prvek seznamu a po každém porovnání přesune jeden z prvků do pomocného pole a posune příslušný ukazatel o jedno místo (címž se dostane na nový nejvyšší prvek příslušného seznamu). Poté, co zkopíruje všechny prvky obou seznamů do pomocného pole, tak celé původní pole přepíše seřazeným seznamem (pomocným polem).</li>
+    </ul>
+  </li>
+  <li><strong>Dělení</strong> - Dosud jsme nezmínili, jak algoritmus získá dvě seřazená sousední pole. Dělicí část merge sortu má na svém vstupu celé pole. Pokud je pole sudé délky, tak jej rozdělí na dvě stejně velké části. Má-li pole lichou délku, tak bude jedna část obsahovat o prvek více než druhá. V každém případě pak algoritmus nově vzniklé části dále rekurzivně dělí. V okamžiku, kdy rekurze narazí na seznamy jednotkové velikosti, tak se zastaví. Nyní má algorimus v každé větvi k dispozici dva sousední seznamy, které obsahují jeden prvek a jsou tedy triviálně seřazeny.</li>
+  <li><strong>Řazení</strong> - Merge sort se tedy začne navracet z rekurze a při každém návratu sleje dva seznamy pomocí výše zmíněné procedury slévání. Algoritmus má jistotu, že buď slévá triviálně seřazené prvky nebo seznamy, které již byly slity. V okamžiku, kdy se merge sort plně navrátí z rekurze, tak terminuje. Pole je seřazeno od nevyšší hodnoty.</li>
+</ul>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" alt="Merge sort" /></p>
+
 <h4 id="heapsort">Heapsort</h4>
+
+<p>Heapsort (řazení haldou) je jedním z nejefektivnějších řadících algoritmů založených na porovnávání prvků s asymptotickou složitostí <strong><em>O(n * log(n))</em></strong>. Jelikož je tato složitost zaručená, tak je heapsort vhodnější pro použití v real-time systémech než v průměrném případě rychlejší quicksort, jenž však může dosahovat složitosti v nejhorším případě až O(n^{2}).</p>
+
+<p>Základem heapsortu je binární halda, jejíž základní vlastností je, že se chová jako prioritní fronta. Pokud z prioritní fronty postupně odebíráme prvky, tak je zřejmé, že tím dochází k jejich řazení. <strong>Celý postup se skládá z následujících kroků:</strong></p>
+
+<ol>
+  <li>Postavme haldu nad zadaným polem.</li>
+  <li>Utrhněme vrchol haldy (prvek s nejvyšší prioritou - nejvyšší nebo nejnižší prvek dle způsobu řazení).</li>
+  <li>Prohoďme utržený prvek s posledním prvkem haldy.</li>
+  <li>Zmenšeme haldu o 1 (prvky řazené dle priority na konci pole jsou již seřazené).</li>
+  <li>Opravme haldu tak, aby splňovala požadované vlastnosti (přestaly platit v momentě prohození prvků).</li>
+  <li>Dokud má halda prvky <strong>GOTO: 2</strong>.</li>
+  <li>Pole je seřazené v opačném pořadí, než je priorita prvků.</li>
+</ol>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Heapsort-example.gif" alt="Heapsort" /></p>
 
 <h4 id="shaker-sort">Shaker sort</h4>
 
+<p>Shaker sort (shake sort, cocktail sort) je stabilní řadící algoritmus s asymptotickou složitostí <strong><em>O(n<sup>2</sup>)</em></strong>. Shakersort je vylepšením <a href="#bubble-sort">bubble sortu</a>, narozdíl od něj neřadí pole pouze jedním směrem, ale oběma. Každá iterace algoritmu se tedy skládá z dvou fází - při dopředné stoupá nejlehčí bublinka vzhůru, pří zpětné klesá nejtěžší bublinka ke dnu. Tímto postupem se předejde nedostatku bubble sortu tzv. problému želv a zajíců, který spočívá v tom, že vysoké hodnoty probublají na konec pole rychle, ale ty nízké postupují na začátek velmi pomalu.</p>
+
 <h4 id="counting-sort">Counting sort</h4>
+
+<p>Counting sort (ultra sort, math sort) je výkonný stabilní řadící algoritmus se složitostí <strong><em>O(n + k)</em></strong>. Counting sort nepracuje narozdíl od bubble sortu nebo quicksortu na principu porovnávání jednotlivých hodnot, ale na bázi výčtu jejich výskytů.</p>
+
+<h5 id="princip-2">Princip</h5>
+
+<p>Counting sort využívá znalosti maximální a minimální řazené hodnoty . Díky může vytvořit pole četností hodnot (kolikrát je daná hodnota zastoupena v řazeném poli) a toto pole posléze přepočítat na pole posledních indexů (index i značí pozici posledního výskytu daného prvku v seřazeném poli).</p>
+
+<p>Řazení probíhá jedním průchodem řazeného pole (zprava doleva) a ukládáním hodnot na správné místo v seřazeném poli (které známe díky poli indexů).</p>
+
+<p><strong>Výhody:</strong></p>
+<ul>
+  <li>složitost <strong><em>O(n+k)</em></strong>, kde <strong><em>n</em></strong> je velikost řazeného pole a <strong><em>k</em></strong> je velikost pole indexů (rozsah různých hodnot)</li>
+</ul>
+
+<p><strong>Nevýhody:</strong></p>
+<ul>
+  <li>v případě řazení struktur potřebuje ke své práci nejen pomocné pole indexů, ale také dodatečné pole</li>
+  <li>dají se ním řadit pouze diskrétní hodnoty (tj. nelze s ním řadit například reálná čísla)</li>
+</ul>
 
 <h4 id="radix-sort">Radix sort</h4>
 
+<p>Radix sort (přihrádkové řazení) je stabilní řadící algoritmus používaný především k <strong>řazení řetězců totožné délky</strong>. Asymptotická složitost radix sortu je <strong><em>O(m * C(n))</em></strong>, kde <strong><em>m</em></strong> je počet znaků řazených řetězců, <strong><em>n</em></strong> je velikost dat a <strong><em>C(n)</em></strong> je složitost vnitřního stabilního řadícího algoritmu (za tímto účelem je často použit counting sort).</p>
+
+<p>Princip radix sortu vychází přímo z definice stabilního řazení – řadicí algoritmus je stabilní, pokud zachovává pořadí klíčů, které mají stejnou hodnotu (tj. pokud stuktury seřadíme napřed dle klíče <strong>A</strong>, poté podle klíče <strong>B</strong>, tak jsou seřazeny podle <strong>B</strong>, a kde jsou si hodnoty <strong>B</strong> rovny, tam jsou struktury v pořadí daném klíčem <strong>A</strong>).</p>
+
+<p>Radix sort řadí řetězce totožné délky tak, že nad každým znakem od konce těchto řetězců zavolá stabilní řadicí algoritmus (seřadí řetězce podle posledního znaku, poté podle předposledního…). Po <strong><em>n</em></strong>-tém průchodu jsou řetězce seřazeny dle všech pozic znaků.</p>
+
 <h4 id="bucket-sort">Bucket sort</h4>
+
+<p><em>(bin sort)</em></p>
+
+<p>Stabilní řadicí algoritmus založení na rozdělení vstupního pole do několika částí – <strong>bucketů</strong> (přihrádek) – a seřazení těchto částí pomocí jiného stabilního řadicího algoritmu. Složitost bucket sortu je <strong><em>O(m * C(n/m))</em></strong>, kde <strong><em>m</em></strong> je počet přihrádek, <strong><em>n</em></strong> je velikost vstupního pole a <strong><em>C(x)</em></strong> je složitost vnitřního řadicího algoritmu.</p>
+
+<p><strong>Princip:</strong></p>
+<ol>
+  <li>Rozdělí vstupní pole do několika bucketů. Každý bucket reprezentuje určitý rozsah vstupních dat – data by měla být v optimálním případě rovnoměrně rozdělena, aby nedocházelo k situaci, kdy je jedna bucket přeplněn a další je prázdný.</li>
+  <li>Zavolá na každý z bucketů stabilní řadicí algoritmus, případně rekurzivně sám sebe.</li>
+  <li>Nakopíruje postupně všechny seřazené buckety do výstupního pole.</li>
+</ol>
+
+<p><strong>Využití</strong> - Bucket sort se dá využít pro řazení obrovských dat, která by nemohl načíst klasický <strong><em>O(n * log(n))</em></strong> algoritmus najednou.</p>
 
 <h4 id="shell-sort">Shell sort</h4>
 
+<p>Kvadratický řadící algoritmus podobný <a href="#insertion-sort">insertion sortu</a>. Ačkoliv má složitost <strong><em>Ο(n<sup>2</sup>)</em></strong>, je z algoritmů této třídy nejvýkonnější.</p>
+
+<p>Shell sort využívá tzv. snižující se přírůstek. Neřadí prvky, které jsou přímo vedle sebe, ale prvky, mezi nimiž je určitá mezera (tj. první a pátý, pátý a devátý, druhý a šestý…). V každém kroku je pak mezera mezi prvky zmenšena. V okamžiku, kdy se velikost mezery sníží na 1, dojde k řazení sousedních prvků – algoritmus degeneruje na běžný <a href="#insertion-sort">insertion sort</a>.</p>
+
+<p><strong>Výhody:</strong></p>
+<ul>
+  <li>asymptotická složitost <strong><em>Ο(n<sup>2</sup>)</em></strong>, ale v praxi je rychlejší než insertion sort</li>
+  <li>prvky vysokých a nízkých hodnot velmi rychle přemístěny na odpovídající stranu pole</li>
+</ul>
+
+<p><strong>Nevýhody:</strong></p>
+<ul>
+  <li>problém volby ideální vzdálenosti pro porovnávání jednotlivých prvků</li>
+</ul>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif" alt="Shell sort" /></p>
+
 <h4 id="bogosort">Bogosort</h4>
+
+<p><em>(stupid sort, slowsort)</em></p>
+
+<p>Slouží k demonstraci nejhoršího možného postupu při řazení prvků. Jedná se pouze o teoretický algoritmus, jenž nemá kromě demonstrace samotné žádné praktické uplatnění. Princip je triviální – v každém svém kroku zkontroluje, jestli vstupní seznam není již seřazený. Pokud je seřazen, tak terminuje. V opačném případě promíchá seznam a vrátí se do prvního kroku. Složitost je <strong><em>O(n!)</em></strong>, což je největší možná složitost.</p>
 
 <h4 id="comb-sort">Comb sort</h4>
 
+<p>Comb sort je řadicí algoritmus, který lze považovat za vylepšení bubble sortu. Ačkoliv má, stejně jako bubble sort, kvadratickou asymptotickou složitost <strong><em>O(n<sup>2</sup>)</em></strong>, tak je díky eliminaci problému želv a zajíců v praxi rychlejší.</p>
+
+<p>Obdobně jako Shell sort zavádí do řazení tzv. snižující se přírůstek. To znamená, že v každé iteraci jsou porovnávány prvky mezi nimiž je určitý přírůstek (1. se 4., 2. s 5., 3. se 6. atp.). Přírůstek se s každou iterací postupně snižuje, dokud není 1 (poslední iterace). Jednotkový přírůstek značí, že dojde k degradaci na prostý <a href="#bubble-sort">bubble sort</a> – tj. jsou porovnávány sousední prvky. Díky tomuto jednoduchému triku se mohou v úvodních iteracích i těžké prvky – želvy – velmi rychle přesunout na správnou stranu pole.</p>
+
+<p><strong>Volba správné mezery</strong> - Velmi dobré výsledky dává mezera, která se vypočte postupným dělením délky pole číslem <strong><em>4/3</em></strong>.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Comb_sort_demo.gif" alt="Comb sort" /></p>
+
 <h4 id="dropsort">DropSort</h4>
+
+<p>Rychlý řadící algoritmus s jedním průchodem, vhodný pro různá nasazení. Spouští se na řazení seznamu čísel, které prozkoumává v sekvenci, počínaje druhým číslem ze seznamu. Pokud je číslo menší než předcházející, pak jej ze seznamu odstraní. V opačném případě je ve správném pořadí, takže jej ponechá. Pak se přesune na další číslo. Po jednom průchodu algoritmem obsahuje seznam pouze čísla, která jsou alespoň tak velká jako předchozí číslo v seznamu, tedy je setříděn. Složitost <strong><em>O(n)</em></strong>.</p>
 
 <h4 id="block-merge-sort">Block Merge Sort</h4>
 
+<p><em>(WikiSort)</em></p>
+
+<p>Rychlý a stabilní <strong><em>O(n * log(n))</em></strong> řadící algoritmus, který používá <strong><em>O(1)</em></strong> paměti.</p>
+
+<p>Algoritmus je ještě rychlejší, je-li vstup částečně setříděn, nebo může-li použít větší pole. Může být také modifikován tak, aby použil další dodatečnou paměť a tím zvýšil svou rychlost.</p>
+
+<p>Block Merge Sort jak název napovídá se skládá z rozložení daného seznamu prvků do bloků, jejich setřídění a následnému slévání zpět. Aby dosáhl složitosti <strong><em>O(n * log(n))</em></strong>, kombinuje vždy alespoň 2 operace Merge sort a Insertion sort. Své jméno tedy dostal z porovnání dvou setříděných seznamů <strong>A</strong> a <strong>B</strong>, což je ve skutečnosti ekvivalentní rozložení seznamu <strong>A</strong> na rovnoměrné části nazývané Bloky, vložení každého bloku <strong>A</strong> do <strong>B</strong> dle speciálních pravidel a slévání (merge) párů <strong>AB</strong> (sort).</p>
+
+<p><strong>Výhody:</strong></p>
+<ul>
+  <li>nevyžaduje dodatečnou počítačovou paměť</li>
+</ul>
+
+<p><strong>Nevýhody:</strong></p>
+<ul>
+  <li>nevyužívá řazených rozsahů tak efektivně jako jiné algoritmy</li>
+</ul>
 
 
             

@@ -59,7 +59,66 @@
 
             <section>
 
-            
+            <h3 id="neúplný">Neúplný</h3>
+
+<p>Python:</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">podminka</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="k">if</span> <span class="n">podminka</span><span class="p">:</span>
+    <span class="c1"># Kód, který se vykoná, pokud je podmínka splněna
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka je splněna"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="úplný">Úplný</h3>
+
+<p>Python:</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">podminka</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="k">if</span> <span class="n">podminka</span><span class="p">:</span>
+    <span class="c1"># Kód, který se vykoná, pokud je podmínka splněna
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka je splněna"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="c1"># Kód, který se vykoná, pokud podmínka není splněna
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka není splněna"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="vrstvené-podmínky-nested-conditions">Vrstvené podmínky (nested conditions)</h3>
+
+<p>Úplný zápis, Python:</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">podminka</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="n">podminka2</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="k">if</span> <span class="n">podminka</span><span class="p">:</span>
+    <span class="c1"># Kód, který se vykoná, pokud je podmínka splněna
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka je splněna"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="c1"># Kód, který se vykoná, pokud podmínka není splněna
+</span>    <span class="k">if</span> <span class="n">podminka2</span><span class="p">:</span>
+        <span class="c1"># Kód, který se vykoná, pokud je podmínka2 splněna
+</span>        <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka 2 splněna"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># Kód, který se vykoná, pokud podmínka2 není splněna
+</span>        <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka není splněna"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Zkrácený zápis, Python:</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">podminka</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="n">podminka2</span> <span class="o">=</span> <span class="bp">True</span>
+
+<span class="k">if</span> <span class="n">podminka</span><span class="p">:</span>
+    <span class="c1"># Kód, který se vykoná, pokud je podmínka splněna
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka je splněna"</span><span class="p">)</span>
+<span class="k">elif</span> <span class="n">podminka2</span><span class="p">:</span>
+    <span class="c1"># Kód, který se vykoná, pokud není splněna podmínka a je splněna podmínka2
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka 2 splněna"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="c1"># Kód, který se vykoná, pokud podminka ani podmínka2 není splněna
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"Podmínka není splněna"</span><span class="p">)</span>
+</code></pre></div></div>
 
 
             
