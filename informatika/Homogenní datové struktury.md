@@ -12,7 +12,7 @@ Homogenní datová struktura: umožňuje uchovávat a zpracovávat množinu dat 
 
 ### Pole (array)
 
-Pole si můžeme představit jako uspořádanou matici prvků určitého datového typu.  Prvky dat jsou uloženy do paměti v navazujících blocích za sebe, a jsou identifikovány pomocí indexu. Pozici prvku v paměti pak lze dopočítat (adresa počátku pole + index * velikost prvku).
+Pole si můžeme představit jako uspořádanou matici prvků určitého datového typu. Prvky dat jsou uloženy do paměti v navazujících blocích za sebe, a jsou identifikovány pomocí indexu. Pozici prvku v paměti pak lze dopočítat (adresa počátku pole + index * velikost prvku).
 
 - Pole mohou mít libovolný počet rozměrů. Nejjednodušším typem jsou lineární pole
 - Přístup k prvkům více rozměrného pole se řeší použitím více indexů podobně jako u matic. 
@@ -33,7 +33,7 @@ Datová struktura určená k ukládání dat předem neznámé délky. Spojové
 > Datová struktura s proměnlivým počtem zařazených prvků fungující na principu fifo (first in first out). Prvek uložený ve frontě jako první, je jako první na řadě pro výběr. Fronta aktivně pracuje pouze s prvním a posledním zařazeným prvkem.
 
 - K tomuto účelu používá sadu tří základních operací:
-  - Zařazení prvků
+    - Zařazení prvků
     - Vyřazení prvků
     - Test prázdnoty 
 - Existují i prioritní fronty, ve kterých se prvky řadí podle priority, z fronty je pak vytáhnut jako první prvek s největší prioritou.

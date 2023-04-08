@@ -20,7 +20,7 @@ permalink: /informatika/
 14. [Počítačové sítě](/informatika/pocitacove-site/)
 15. [Počítačové viry a další malware](/informatika/pocitacove-viry-a-dalsi-malware/)
 16. [Prezentační technologie](/informatika/prezentacni-technologie/)
-17. [Procedury a funkce, druhy parametrů*](/informatika/procedury-a-funkce-druhy-parametru/)
+17. [Procedury a funkce, druhy parametrů](/informatika/procedury-a-funkce-druhy-parametru/)
 18. [Software – vývoj, rozdělení, operační systémy](/informatika/software-vyvoj-rozdeleni-operacni-systemy/)
 19. [Tabulkové kalkulátory, textové editory](/informatika/tabulkove-kalkulatory-textove-editory/)
 20. [Teorie grafů, backtracking](/informatika/teorie-grafu-backtracking/)
@@ -30,9 +30,6 @@ permalink: /informatika/
 24. [Základní metody vyhledávání a třídění](/informatika/zakladni-metody-vyhledavani-a-trideni/)
 25. [Záznamová média a zálohování dat, komprimace](/informatika/zaznamova-media-a-zalohovani-dat-komprimace/)
 
-*\*otázka ještě není hotová*
-
 ## Ostatní
 
 - [Binární a doplňkový kód](/informatika/ostatni/binarni-a-doplnkovy-kod/)
-- [Převod číselných soustav](/informatika/ostatni/prevod-ciselnych-soustav/)
