@@ -100,3 +100,9 @@ Virtuální realita je platforma pro multimédia, v níž se spojují všechny k
 ### Rozšířená realita
 
 Rozšířená realita překrývá digitální obsah nebo výstupy do reálného světa pomocí médií, jako je zvuk, animace a text. Rozšířená realita se stala široce populární až v 21. století, nicméně některé z jejích dřívějších verzí byly například Sega Genesis Activator Controller z roku 1992, který umožňoval uživatelům doslova stát v osmiúhelníku a ovládat pohyb ve hře fyzickým pohybem, nebo ještě starší R.O.B. NES Robot z roku 1984, který se svým bohatým příslušenstvím dokázal uživatelům poskytnout také pocit, že drží střelnou zbraň. Tato multimediální vstupní zařízení patří k jedněm z prvních zařízení s rozšířenou realitou tím, že umožňují uživatelům zadávat příkazy usnadňující jiný uživatelský zážitek. Modernějším příkladem rozšířené reality je Pokémon GO, mobilní hra vydaná 6. července 2016, která umožňuje uživatelům vidět pokémona v reálném prostředí.
+
+----------------
+
+**Zdroje**
+
+- [https://en.wikipedia.org/wiki/Multimedia](https://en.wikipedia.org/wiki/Multimedia)

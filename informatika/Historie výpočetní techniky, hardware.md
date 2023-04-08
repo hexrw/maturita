@@ -191,3 +191,9 @@ Kromě všech výše uvedených položek existuje ještě další počítačový
 - Napájecí kabel
 - Baterie CMOS
 - Dceřiná deska
+
+---------------------
+
+**Zdroje**
+
+- [https://www.alza.cz/historie-pocitacu](https://www.alza.cz/historie-pocitacu)

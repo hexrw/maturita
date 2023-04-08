@@ -252,3 +252,13 @@ Implicitní deklarace znamená, že proměnnou během deklarace přímo použije
 **Proměnné**
 
 V některých programovacích jazycích jsou implicitní deklarace vytvořeny při překladu, až když se s nimi překladač poprvé setká. V jiných jazycích je takový postup považovaný za fatální a během diagnostiky je zahlášena chyba. Některé jazyky původně používaly implicitní deklaraci proměnných, ale během jejich vývoje získaly možnost ji vypnout (například v Perlu použitím „use strict“ nebo ve Visual Basicu direktivou Option Explicit“).
+
+----------------
+
+**Zdroje**
+
+- [https://algoritmy.net/](https://algoritmy.net/)
+- [https://cs.wikipedia.org/wiki/Algoritmus](https://cs.wikipedia.org/wiki/Algoritmus)
+- [https://cs.wikipedia.org/wiki/V%C3%BDvojov%C3%BD_diagram](https://cs.wikipedia.org/wiki/V%C3%BDvojov%C3%BD_diagram)
+- [https://popelka.ms.mff.cuni.cz/~lessner/mw/index.php/U%C4%8Debnice/Algoritmus/V%C3%BDvojov%C3%A9_diagramy](https://popelka.ms.mff.cuni.cz/~lessner/mw/index.php/U%C4%8Debnice/Algoritmus/V%C3%BDvojov%C3%A9_diagramy)
+- [https://cs.wikipedia.org/wiki/Deklarace_(programov%C3%A1n%C3%AD)](https://cs.wikipedia.org/wiki/Deklarace_(programov%C3%A1n%C3%AD))

@@ -149,3 +149,12 @@ GIF je využitelný pro obrázky, které obsahují nízký počet barev (loga, g
 GIF je také vhodný na malé animace a filmové klipy s minimálním rozlišením a nízkým počtem barev.
 
 ![GIF example](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/200px-Rotating_earth_%28large%29.gif)
+
+----------------
+
+**Zdroje**
+
+- [https://en.wikipedia.org/wiki/Bitmap](https://en.wikipedia.org/wiki/Bitmap)
+- [https://developers.google.com/speed/webp](https://developers.google.com/speed/webp)
+- [https://cs.wikipedia.org/wiki/JPEG](https://cs.wikipedia.org/wiki/JPEG)
+- [https://cs.wikipedia.org/wiki/Portable_Network_Graphics](https://cs.wikipedia.org/wiki/Portable_Network_Graphics)

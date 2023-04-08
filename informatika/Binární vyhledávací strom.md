@@ -189,3 +189,9 @@ def strom_ukaz(vrchol):
         strom_ukaz(vrchol.pravy)
     ))
 ```
+
+----------------
+
+**Zdroje**
+
+- [https://ksp.mff.cuni.cz/kucharky/vyhledavaci-stromy/](https://ksp.mff.cuni.cz/kucharky/vyhledavaci-stromy/)

@@ -85,3 +85,9 @@ fronty a zásobníku.
 V další lekci, Fronta a zásobník, si ukážeme, jak fungují datové struktury fronta
 a zásobník, k čemu se v praxi používají, a jaké časové složitosti
 mají jejich operace.
+
+----------------
+
+**Zdroje**
+
+- [https://www.itnetwork.cz/algoritmy/datove-struktury/spojovy-seznam](https://www.itnetwork.cz/algoritmy/datove-struktury/spojovy-seznam)

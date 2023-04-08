@@ -16,6 +16,10 @@
             li {
                 margin-left: 1rem;
             }
+            math {
+                font-size: 1.25rem;
+                padding-bottom: 1.5rem;
+            }
         </style>
     </head>
     <body>
@@ -233,6 +237,12 @@
   <p>Číselná soustava je způsob reprezentace čísel. Podle způsobu určení hodnoty čísla z dané reprezentace rozlišujeme dva hlavní druhy číselných soustav: poziční číselné soustavy a nepoziční číselné soustavy. V praxi se však také používaly způsoby reprezentace používající postupy z obou těchto druhů. Dnes se obvykle používají soustavy poziční. Zápis čísla dané soustavy je posloupností symbolů, které se nazývají číslice.</p>
 </blockquote>
 
+<p>Běžně pracujeme s desítkovou soustavou. Tato soustava má deset číslic, <strong><em>0, 1, 2, 3, 4, 5, 6, 7, 8 a 9</em></strong>. Desítková soustava se vyznačuje tím, že když nějaké číslo, například 57, vynásobíme deseti, posuneme se o jeden řád — potřebujeme o jednu číslici více na popis tohoto čísla: 570.</p>
+
+<p>Můžeme mít i jiné číselné soustavy, taková osmičková soustava by obsahovala pouze číslice <strong><em>0, …, 7</em></strong>. Výraz 7 + 1 by tak byl roven číslu 10, protože v osmičkové soustavě nemáme číslici 8. Šestnáctková soustava by měla číslice <strong><em>0, 1, … 14, 15</em></strong>. Někdy místo číslic, které jsou větší než 9, používáme písmena, takže šestnáctková soustava by měla číslice <strong><em>0, …9, A, B, C, D, E, F</em></strong>.</p>
+
+<p>S jinými číselnými soustavami se překvapivě setkáváme i v běžném životě. Například čas — sekundy a minuty počítáme v šedesátkové soustavě. Každý okamžik dne můžeme zapsat jako číslo v šedesátkové soustavě o třech číslicích. První číslice udává hodiny, druhá minuty, třetí sekundy. Pokud zvolíme jako oddělovač číslic dvojtečku, máme například číslo 14:05:59. Všimněte si, že když k tomuto času přičteme jednu sekundu, nezískáme čas 14:05:60, ale získáme čas 14:06:00 — protože číslice 60 není platnou číslicí šedesátkové soustavy.</p>
+
 <h3 id="poziční-soustavy">Poziční soustavy</h3>
 
 <blockquote>
@@ -258,6 +268,574 @@
 <p>Nejtypičtějším příkladem nepoziční číselné soustavy je jedničková. Jedná se o aditivní číselnou soustavu, kde přirozené číslo je vyjádřeno počtem znaků namísto jejich pozicí. Ač si to často neuvědomujeme, takovou soustavu běžně používáme při počítání na prstech nebo při čárkování.</p>
 
 <p>Pokročilejší příklad tvoří římské číslice. Dnes se prakticky nepoužívají.</p>
+
+<h3 id="převody-číselných-soustav">Převody číselných soustav</h3>
+
+<h4 id="převod-z-desítkové-do-dvojkové-soustavy">Převod z desítkové do dvojkové soustavy</h4>
+
+<p>Nechť máme na papíře číslo 70. Toto číslo budeme nyní chtít převést do dvojkové, binární soustavy. Princip je poměrně jednoduchý, číslo, které chceme převést, dělíme neustále dvojkou, až dojdeme k nule, přičemž si zapisujeme zbytky po celočíselném dělení. Pokud chceme převést číslo do jiné soustavy, například do šestnáctkové, budeme dělit šestnáctkou. Pokud do šestkové, dělíme šestkou. Takže v praxi to bude vypadat takto:</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mtable displaystyle="true" columnalign="right center left" columnspacing="0 0.278em" rowspacing="3pt">
+    <mtr>
+      <mtd>
+        <mn>70</mn>
+        <mo>:</mo>
+        <mn>2</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>35</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>0</mn>
+        <mstyle scriptlevel="0">
+          <mspace width="1em"></mspace>
+        </mstyle>
+        <mo stretchy="false">(</mo>
+        <mstyle displaystyle="false" scriptlevel="0">
+          <mtext>zbytek po d&#x11B;len&#xED;</mtext>
+        </mstyle>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>35</mn>
+        <mo>:</mo>
+        <mn>2</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>17</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>1</mn>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>17</mn>
+        <mo>:</mo>
+        <mn>2</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>8</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>1</mn>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>8</mn>
+        <mo>:</mo>
+        <mn>2</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>4</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>0</mn>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>4</mn>
+        <mo>:</mo>
+        <mn>2</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>2</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>0</mn>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>2</mn>
+        <mo>:</mo>
+        <mn>2</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>1</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>0</mn>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>1</mn>
+        <mo>:</mo>
+        <mn>2</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>0</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>1</mn>
+      </mtd>
+    </mtr>
+  </mtable>
+</math>
+
+<p>Výsledné číslo ve dvojkové soustavě udávají zbytky po dělení. Nebereme ale zbytky zvrchu, ale od spodu. Takže číslo 70 v binární soustavě je 1000110.</p>
+
+<h4 id="převod-z-dvojkové-do-desítkové-soustavy">Převod z dvojkové do desítkové soustavy</h4>
+
+<p>Opačně bychom převedli takto. Mějme číslo 1100010 a převeďme ho do desítkové soustavy. Tento směr je jednodušší, stačí vypočítat tento součet:</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <msub>
+    <mn>1100010</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>10</mn>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mn>1</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>6</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <mn>1</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>5</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <mn>0</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>4</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <mn>0</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>3</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <mn>0</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>2</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <mn>1</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>1</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <mn>0</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>0</mn>
+    </mrow>
+  </msup>
+</math>
+
+<p>Každý sčítanec má tvar <strong><em>x · 2i</em></strong>, kde <strong><em>x</em></strong> je číslice z původního binárního čísla a <strong><em>i</em></strong> se zprava postupně zvětšuje vždy o jedna. Takže protože převádíme číslo 1100010, vypadá tento součet takto:</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <msub>
+    <mn>1100010</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>10</mn>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <menclose notation="box">
+    <mtext>1</mtext>
+  </menclose>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>6</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <menclose notation="box">
+    <mtext>1</mtext>
+  </menclose>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>5</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <menclose notation="box">
+    <mtext>0</mtext>
+  </menclose>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>4</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <menclose notation="box">
+    <mtext>0</mtext>
+  </menclose>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>3</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <menclose notation="box">
+    <mtext>0</mtext>
+  </menclose>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>2</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <menclose notation="box">
+    <mtext>1</mtext>
+  </menclose>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>1</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <menclose notation="box">
+    <mtext>0</mtext>
+  </menclose>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>2</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>0</mn>
+    </mrow>
+  </msup>
+</math>
+
+<p>Číslo 1100010 má sedm číslic, takže mocniny u čísla dva budou postupně <strong><em>6, 5, …, 1, 0</em></strong>. Po umocnění a vynásobení získáme výraz:</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <msub>
+    <mn>1100010</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>10</mn>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mn>64</mn>
+  <mo>+</mo>
+  <mn>32</mn>
+  <mo>+</mo>
+  <mn>2</mn>
+  <mo>=</mo>
+  <mn>98.</mn>
+</math>
+
+<h5 id="proč-tento-postup-funguje">Proč tento postup funguje?</h5>
+
+<p>Můžeme si to předvést na desítkové soustavě. Co ve skutečnosti znamenají číslice v čísle, například v čísle 7384? Číslice 4 udává počet jednotek, číslice 8 počet desítek, číslice 3 počet stovek a číslice 7 počet tisícovek. Takže můžeme napsat, že</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mn>7384</mn>
+  <mo>=</mo>
+  <mn>7</mn>
+  <mo>&#x22C5;</mo>
+  <mn>1000</mn>
+  <mo>+</mo>
+  <mn>3</mn>
+  <mo>&#x22C5;</mo>
+  <mn>100</mn>
+  <mo>+</mo>
+  <mn>8</mn>
+  <mo>&#x22C5;</mo>
+  <mn>10</mn>
+  <mo>+</mo>
+  <mn>4</mn>
+  <mo>&#x22C5;</mo>
+  <mn>1</mn>
+</math>
+
+<p>Tento výraz můžeme ještě upravit tak, abychom nepoužívali čísla 100, 10 a 1, ale abychom tam vždy měli nějakou mocninu deseti. Protože platí 100 = 1 a 101 = 10 atd., tak můžeme napsat</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mn>7384</mn>
+  <mo>=</mo>
+  <mn>7</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>10</mn>
+    <mn>3</mn>
+  </msup>
+  <mo>+</mo>
+  <mn>3</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>10</mn>
+    <mn>2</mn>
+  </msup>
+  <mo>+</mo>
+  <mn>8</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>10</mn>
+    <mn>1</mn>
+  </msup>
+  <mo>+</mo>
+  <mn>4</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>10</mn>
+    <mn>0</mn>
+  </msup>
+</math>
+
+<p>Každé číslo v desítkové soustavě jsme schopni popsat stejným způsobem, přitom jednotlivé sčítance mají tvar <strong><em>x · 10i</em></strong>, kde <strong><em>x</em></strong> je číslice od 0 do 9, těchto číslic je deset. Hodnota <strong><em>i</em></strong> je pak nějaké kladné celé číslo, které udává řád. Pokud <strong><em>i = 0</em></strong>, pak sčítanec udává jednotky, pokud <strong><em>i = 2</em></strong>, pak udává stovky (protože 102 = 100).</p>
+
+<p>Zkusme si teď převést číslo 7348 z desítkové soustavy do, eh…, desítkové soustavy. Bude to mít smysl. Číslo 7348 budeme dělit 10:</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mtable displaystyle="true" columnalign="right center left" columnspacing="0 0.278em" rowspacing="3pt">
+    <mtr>
+      <mtd>
+        <mn>7348</mn>
+        <mo>:</mo>
+        <mn>10</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>734</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>8</mn>
+        <mstyle scriptlevel="0">
+          <mspace width="1em"></mspace>
+        </mstyle>
+        <mo stretchy="false">(</mo>
+        <mstyle displaystyle="false" scriptlevel="0">
+          <mtext>zbytek po d&#x11B;len&#xED;</mtext>
+        </mstyle>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>734</mn>
+        <mo>:</mo>
+        <mn>10</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>73</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>4</mn>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>73</mn>
+        <mo>:</mo>
+        <mn>10</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>7</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>3</mn>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>7</mn>
+        <mo>:</mo>
+        <mn>10</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>0</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>7</mn>
+      </mtd>
+    </mtr>
+  </mtable>
+</math>
+
+<p>Pokud přečteme zbytky od spodu, máme číslo 7348 — zpět původní číslo, které jsme se snažili převést do … stejné soustavy.</p>
+
+<p>Pokud chceme popsat dvojkovou soustavu, uděláme to úplně stejně — všechny sčítance budou ve tvaru <strong><em>x · 2i</em></strong>, kde <strong><em>x</em></strong> je číslice 0 nebo 1. Hodnota <strong><em>i</em></strong> opět udává řády. Stejně, jako postupné dělení desítou nám dá počty řádů v čísle v desítkové soustavě, tak postupné dělení dvěma nám dá počty řádů ve dvojkové soustavě.</p>
+
+<p>Zároveň si všimněte, že když dělíme číslo deseti a ptáme se na zbytek, tak tento zbytek bude vždy v intervalu &lt;0, 9&gt;. Pokud dělíme číslo dvěma, tak zbytek může být buď 0 nebo 1.</p>
+
+<h4 id="převod-do-jiných-soustav">Převod do jiných soustav</h4>
+
+<p>Předchozí postup na převod z desítkové do binární soustavy je natolik univerzální, že lze použít i na jiné soustavy. Pokud chceme převést číslo 185 do šestnáctkové soustavy, jen dělíme 16:</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mtable displaystyle="true" columnalign="right center left" columnspacing="0 0.278em" rowspacing="3pt">
+    <mtr>
+      <mtd>
+        <mn>185</mn>
+        <mo>:</mo>
+        <mn>16</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>11</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>9</mn>
+        <mstyle scriptlevel="0">
+          <mspace width="1em"></mspace>
+        </mstyle>
+        <mo stretchy="false">(</mo>
+        <mstyle displaystyle="false" scriptlevel="0">
+          <mtext>zbytek po d&#x11B;len&#xED;</mtext>
+        </mstyle>
+        <mo stretchy="false">)</mo>
+      </mtd>
+    </mtr>
+    <mtr>
+      <mtd>
+        <mn>11</mn>
+        <mo>:</mo>
+        <mn>16</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo>=</mo>
+        <mn>0</mn>
+      </mtd>
+      <mtd>
+        <mi></mi>
+        <mo stretchy="false">&#x27F6;</mo>
+        <mn>11</mn>
+      </mtd>
+    </mtr>
+  </mtable>
+</math>
+
+<p>Číslo 185 by v 16 soustavě mělo tvar (11, 9). Místo „číslic“ nad 9 se obvykle používají písmena, takže 10 = A, 11 = B, 12 = C, … Můžeme tak napsat, že číslo 185 má v 16 soustavě tvar B9.</p>
+
+<p>Podobně můžeme převést číslo B9 z 16 soustavy do desítkové.</p>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>B</mi>
+  <msub>
+    <mn>9</mn>
+    <mrow data-mjx-texclass="ORD">
+      <mn>10</mn>
+    </mrow>
+  </msub>
+  <mo>=</mo>
+  <mn>11</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>16</mn>
+    <mn>1</mn>
+  </msup>
+  <mo>+</mo>
+  <mn>9</mn>
+  <mo>&#x22C5;</mo>
+  <msup>
+    <mn>16</mn>
+    <mn>0</mn>
+  </msup>
+  <mo>=</mo>
+  <mn>11</mn>
+  <mo>&#x22C5;</mo>
+  <mn>16</mn>
+  <mo>+</mo>
+  <mn>9</mn>
+  <mo>=</mo>
+  <mn>185</mn>
+</math>
+
+<hr />
+
+<p><strong>Zdroje</strong></p>
+
+<ul>
+  <li><a href="https://wikisofia.cz/wiki/Informa%C4%8Dn%C3%AD_zdroje,_podpora,_kan%C3%A1ly">https://wikisofia.cz/wiki/Informa%C4%8Dn%C3%AD_zdroje,_podpora,_kan%C3%A1ly</a></li>
+  <li><a href="https://www.matweb.cz/prevod/">https://www.matweb.cz/prevod/</a></li>
+</ul>
 
 
             

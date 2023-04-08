@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/favicon.svg">
+
+        <link rel="stylesheet" href="/assets/pico.css">
+        <link rel="stylesheet" href="/assets/prism.css">
+        <style>
+            img:not([data-img-type="icon"]) {
+                margin: auto;
+                display: block;
+            }
+            li {
+                margin-left: 1rem;
+            }
+            math {
+                font-size: 1.25rem;
+                padding-bottom: 1.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" style="padding-top: 1.5rem;">
+            <header>
+                <h1><a href="http://localhost:4000/">Maturita</a></h1>
+
+                
+
+                <p>Otázky k maturitě</p>
+            </header>
+
+            <hr style="margin: 2rem 0;">
+
+            
+            <div style="display: inline-flex; gap: 2rem; flex-wrap: wrap;">
+                <a class="outline" style="cursor: pointer;" onclick="window.history.back()">
+                    <img src="/assets/arrow-left.svg" alt="Zpět" style="width: 1.5rem; height: 1.5rem;">
+                </a>
+                <div id="breadcrumbs">
+    
+    <a href="/">Domů</a>
+    
+        
+            / <a href="/informatika/">Informatika</a>
+        
+    
+        
+            / <a href="/informatika/ostatni/">Ostatni</a>
+        
+    
+        
+            / Binární a doplňkový kód
+        
+    
+</div>
+            </div>
+            <hr style="margin: 2rem 0;">
+            
+
+
+            
+                <h1>Binární a doplňkový kód</h1>
+            
+
+            <section>
+
+            <h2 id="binární-kód">Binární kód</h2>
+
+<blockquote>
+  <p>Způsob uložení informace v počítači definovaný jako konečný počet bitů, z nichž každý může nabývat právě jednu ze dvou hodnot – 0 nebo 1</p>
+</blockquote>
+
+<ul>
+  <li>pro zápis se používá byte (bajt) s délkou slova 8 bitů</li>
+  <li>pro výpočet hodnoty binárního zápisu – binární (=dvojková) soustava</li>
+</ul>
+
+<h3 id="význam">Význam</h3>
+
+<ul>
+  <li>používá se v případě, že člověk neví, jaká informace je v zápisu hodnot použita. Obvykle je tak označován obsah souboru, který obsahuje strojový kód procesoru nebo jiná data, která člověk nemůže přímo z čísel pochopit (např. digitální obrázek, text).</li>
+</ul>
+
+<h3 id="kódování">Kódování</h3>
+
+<ul>
+  <li>k uložení a pozdějšímu obnovení – určuje, jak je informace převedena do číselného zápisu (a stejně i zpět)</li>
+  <li>např. pro text je používána dohodnutá znaková sada, kde ke každému znaku odpovídá nějaké číslo</li>
+  <li><strong>ASCII</strong> (=American Standard Code for Information Interchange) – používá 7bitový binární kód, který představuje text pro počítače a jiná zařízení, která používají text
+    <ul>
+      <li>(v ASCII je pro znak písmene A definován kód 65 – v desítkové soustavě, který je možné vyjídřit v šestnáctkové soustavě jako číslo 41 a binárně 1000001)</li>
+    </ul>
+  </li>
+  <li>podobně jsou ukládány i strojové instrukce procesoru, kdy každá instrukce je vyjádřena vybraným číslem a procesor musí toto číslo po načtení z paměti nejprve dekódovat (=zjistit, jaký má význam) a teprve potom ji může provést.</li>
+</ul>
+
+<h2 id="doplňkový-kód">Doplňkový kód</h2>
+
+<ul>
+  <li>záporné číslo zaznamenáno jako binární negace (záměna všech 0 za 1) původního čísla zvětšeného o 1</li>
+  <li>úvodní bit má význam znaménka</li>
+  <li>při odečtení čísla 00000001 od 00000000 dojde k přetečení a výsledkem je číslo 11111111</li>
+</ul>
+
+
+            
+
+            </section>
+
+            <hr style="margin: 2rem 0;">
+
+            <footer>
+                
+                <p>Projekt spravuje <a target="_blank" href="https://github.com/hex2w">Petr Kolonicz</a></p>
+                
+            </footer>
+        </div>
+
+        <script src="/assets/prism.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+        <script>
+        
+        anchors.add("h1, h2, h3, h4, h5, h6")
+        
+        </script>
+    </body>
+</html>
