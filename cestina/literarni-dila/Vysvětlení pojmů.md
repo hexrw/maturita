@@ -1,0 +1,83 @@
+---
+layout: default
+title: Vysvětlení pojmů
+permalink: /cestina/literarni-dila/vysvetleni-pojmu/
+---
+
+- **román** - prozaický epický žánr; delší rozsah a komplikovanější děj než povídka nebo novela; příběh zpravidla obsahuje více postav
+- **antiutopie** - opak utopie
+    - myšlenka budoucího stavu společnosti, která se vyvinula nesprávným směrem (např. totalitní vláda, apod.)
+    - myšleno i jako literární žánr; často se objevuje v literatuře science-fiction
+    - PŘEDSTAVITELÉ: Herbert G. Wells, Aldous Huxley, Karel Čapek, G. Orwell, Ray Bradbury, aj.
+- 1\. vlna poválečné prózy
+    - literární tvorba v prvních letech po 2. svět. válce; ZNAKY: detailní a precizní popis války, logicky předchází 2. vlně, která naopak více zobrazuje nepřímé následky války a psychologickou char. postav
+- **elipsa** - vynechání části věty obsahující informaci, která je příjemci známa, resp. bez které je schopen větu pochopit
+- **personifikace** - připisování lidských vlastností neživým věcem 
+    - VÝZNAM: zestručnění, neopakování něčeho, co už bylo řečeno nebo co zjevně vyplývá z kontextu
+- **epiteton konstans** - básnický přívlastek stálý (konstantní)
+    - přikládá důraz běžné (zjevné) vlastnosti osoby, předmětu nebo jevu (např. šedivý vlk, zelený háj, širé pole)
+- **komedie** - většinou dramatický (divadelní) žánr
+    - vždy má dobrý konec
+    - vyznačuje se humorem
+    - často vtipně (někdy i silně kriticky) hodnotí lidské nedokonalosti a slabosti
+- **realismus** - umělecký směr zejména 2. pol. 19. stol.
+    - navazuje na romantismus
+    - zachycuje pravdivou a věrnou skutečnost
+    - centrem pozornosti jsou většinou průměrní lidé
+    - PŘEDSTAVITELÉ: Lev N. Tolstoj, Honoré de Balzac, Charles Dickens, Henrik Ibsen, Mark Twain, Jack London, Stendhal, Gustave Flaubert nebo Fjodor M. Dostojevskij
+- **lumírovci** - uskupení českých autorů sdružené kolem časopisu Lumír, nejaktivnější v 70. a 80. letech 19. stol.
+    - ZNAKY: snaha o pozvednutí české literatury na evropskou úroveň
+    - zavádění evropských trendů
+    - časté experimenty
+    - MYŠLENKA: lidstvo se stále vyvíjí směrem k humanitě
+    - ZÁSTUPCI: Jar. Vrchlický, Julius Zeyer, Josef Václav Sládek
+- **ruchovci** - uskupení českých autorů narozených mezi lety 1845-1855 a sdružených kolem almanachu Ruch (1868)
+    - ZNAKY: nadšení a odhodlané vlastenectví, oživení myšlenky tzv. slovanské jednoty
+    - tradičnější pojetí tvorby
+    - častý motiv venkova
+    - ZÁSTUPCI: Eliška Krásnohorská, Svatopluk Čech, aj.
+- **archaismus** - zastaralý jazykový prvek (např. platiti, dýchati, regiment (= pluk), leč (= avšak), narozdíl od historismů mohou označovat i skutečnost (věc), která stále existuje
+- **historismus** - podobá se archaismu, narozdíl od něj ale označuje již zaniklou (nepoužívanou) skutečnost (věc) - např. halapartna, grešle, píď
+- **řečnická otázka** - otázka, na kterou její tazatel neočekává odpověď
+- **pohádka** - zpravidla prozaický epický žánr
+    - delší rozsah a komplikovanější děj než povídka nebo novela
+    - příběh většinou obsahuje více postav
+- **romantismus** - v literatuře jde o směr rozvíjející se hl. v 1. pol. 19. stol.
+    - rozvoj hl. lyrické poezie, ale i románu
+    - ZNAKY: konflikt mezi vnitřním a vnějším (reálným) světem, rozervanost hl. hrdiny vzpírajícího se společenským konvencím, hl. hrdina často výjimečný jedinec na okraji společnosti
+    - ZÁSTUPCI: O. Wilde, A. Dumas st., A. S. Puškin aj.
+- **reportáž** - slohový/literární útvar, používaný nejčastěji v žurnalistice, pomocí kterého je popisována realita na základě zjištěných faktů
+- **postmodernismus** - myšlenkový směr konce 20. stol. v Evropě
+    - rozvoj hlavně v 70. letech 20. stol.
+    - často se vyznačuje dvouúrovňovostí děl (děj má dvě roviny); vyznačuje se pluralitou (množstvím) názorových proudů
+    - literatuře začíná významně konkurovat internet a jiná média
+    - autoři často užívají satiru, ironii a humor i u vážných témat (např. válka)
+    - ZÁSTUPCI: Umberto Eco, Gabriel García Márquez, Salman Rushdie, Vladimir Nabokov, Woody Allen, ale i Václav Havel nebo Milan Kundera
+- **naturalismus** - směr, který vznikl již v 70. letech 19. stol.
+    - CÍL: popis nezkreslené reality
+    - ZNAKY: obecně převládá pesimismus
+    - časté detailní popisy nepříjemných situací
+- **idiom** - ustálený víceslovný výraz, jehož význam není možné odvodit z běžných významů slov, která obsahuje
+    - PŘÍKLAD: ztratil hlavu = nemá zdravý úsudek
+- **asyndeton** - vynechání spojek (a, i) ve výčtu
+- **metonymie** - přenos označení na jiný objekt na základě vnitřní podobnosti subjektů (čtu Čapka = čtu Čapkovu knihu)
+- **slang** - nespisovný útvar jazyka, který je charakteristický pro mluvčí z nějaké zájmové/profesní/věkové skupině (studentský, vojenský, sportovní, vězeňský, apod.)
+- **science-fiction** (sci-fi) - vědecko-fantastický umělecký žánr
+    - ZNAKY: spekulativní technologie, mimozemské civilizace, časté zasazení do vesmíru nebo budoucnosti
+    - PŘEDSTAVITELÉ: Isaac Asimov, Arthur C. Clarke, Ray Bradbury, aj.
+- **činohra** - dramatický žánr, ve kterém se narozdíl třeba od baletu nebo opery mluví a jedná
+- **pátečníci** - skupina prvorepublikových politických a uměleckých osobností, kteří se každý pátek scházeli v Čapkově vile na Vinohradech
+    - Členové: Tomáš Garrigue Masaryk, Jan Masaryk, Josef Čapek, Ferdinand Peroutka, Eduard Bass, Karel Poláček, Edvard Beneš, Vladislav Vančura, aj.
+    - zakladatelem byl Karel Čapek
+- **PEN club** - celosvět. sdružení autorů, žurnalistů a vydavatelů
+    - nejstarší svět. organizace na ochranu lid. práv, která propaguje spolupráci mezi všemi spisovateli
+    - zal. r. 1921 v Londýně 1. předsedou John Galsworthy
+    - jedním z prvních členů např. George Bernard Shaw; prvním čes. členem Alois Jirásek (1923) a 1. českým předsedou Karel Čapek
+- **české meziválečné drama** - česká dramatická (divadelní) tvorba mezi 1. a 2. svět. válkou
+    - těsně po 1. sv. válce Fráňa Šrámek (Měsíc nad řekou) nebo Viktor Dyk (Ondřej a drak), později např. Osvobozené divadlo (Emil František Burian) nebo duo Voskovec & Werich (Vest pocket revue), na klonku období i Vítězslav Nezval (Manon Lescaut) 
+- **demokratický proud** - zpravidla tzv. pragmatisté shromáždění od 20. let 20. stol. kolem Lidových novin
+    - ČLENOVÉ: bratři Čapkové, Karel Poláček, Eduard Bass, aj.
+    - DÁLE PROPAGUJÍ: humanismus, svobodu názorů, objektivitu 
+- **pragmatismus** - filoz. směr
+    - *"Pravdivé je to, co je užitečné."*
+    - VLIV NA: T.G.M., od něj na K.Čapka nebo F.Peroutku

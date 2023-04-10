@@ -32,4 +32,6 @@ permalink: /informatika/
 
 ## Ostatní
 
+- [Pojmy (procvičování)](/informatika/ostatni/pojmy/)
+
 - [Binární a doplňkový kód](/informatika/ostatni/binarni-a-doplnkovy-kod/)

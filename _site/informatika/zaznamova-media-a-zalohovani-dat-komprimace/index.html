@@ -65,7 +65,9 @@
 
             <h2 id="záznamová-média">Záznamová média</h2>
 
-<p><em>Záznamová média (také datová média) je obecné označení pro paměťový nosič datových informací používající k jejich uchování nějaký fyzikální princip. Rozdělujeme je podle principu čtení na magnetická, optická a elektronická.</em></p>
+<blockquote>
+  <p>Záznamová média (také datová média) je obecné označení pro paměťový nosič datových informací používající k jejich uchování nějaký fyzikální princip. Rozdělujeme je podle principu čtení na magnetická, optická a elektronická.</p>
+</blockquote>
 
 <p>Ještě před magnetickými záznamovými médii se používaly jednorázové děrné štítky, do kterých se kód fyzicky vyrazil v podobě děr. Za předchůdce můžeme považovat také hliněné destičky, pergamen a papír.</p>
 
@@ -180,7 +182,125 @@
 
 <h2 id="zálohování-dat">Zálohování dat</h2>
 
-<h2 id="komprimace">Komprimace</h2>
+<blockquote>
+  <p>Záloha nebo záložní kopie je kopie dat uložená na jiném datovém nosiči (nebo i místě). Záložní data jsou využívána v případě ztráty, poškození nebo jiné potřeby práce s daty uloženými v minulosti. Zálohování probíhá nepravidelně (např. v domácnostech) nebo pravidelně podle rozvrhu (např. ve firmách).</p>
+</blockquote>
+
+<p>Při zálohování většího množství dat se obvykle používá specializovaný program (například i v systému Microsoft Windows je součástí instalace), který celý proces zálohování usnadňuje (viz níže). Pro zálohování většího množství dat je možné použít také specializovaná zařízení (hardware), která pracují poloautomaticky nebo plně automatizovaně. Proces zálohování dat klade velký důraz na rychlou obnovu dat oproti archivaci.</p>
+
+<p>V poslední době je využíváno komplexních zálohovacích systémů, které umožňují efektivně zálohovat mnoho počítačů propojených počítačovou sítí nebo naopak na mnoho počítačů propojených v síti data zálohovat (tzv. úložný cluster).</p>
+
+<p><strong>Zálohování může probíhat v těchto základních režimech:</strong></p>
+<ul>
+  <li><strong>Online</strong> – Proces tvorby zálohy počítače za jeho běžného chodu.</li>
+  <li><strong>Offline</strong> – Zálohování je prováděno mimo běžný provoz počítače; obvykle se provádí za pomoci zavedení speciálního média.</li>
+</ul>
+
+<h3 id="typy-záloh">Typy záloh</h3>
+
+<p>Pro různé podmínky se používají různé strategie zálohování. Volba správné strategie je závislá na tom, jestli je potřeba se zálohami pracovat velmi často nebo je naopak požadována maximální délka archivace zálohovaných dat. Existují i další kritéria, která odrážejí konkrétní specifické podmínky.</p>
+
+<ul>
+  <li><strong>Nestrukturovaná</strong>
+    <ul>
+      <li>Nestrukturovaným úložištěm může být větší množství disket, CD, DVD medií s minimem informací o záloze. Tento způsob je nejjednodušší, ale není příliš oblíben u větších firem.</li>
+    </ul>
+  </li>
+  <li><strong>Úplná + Inkrementální</strong>
+    <ul>
+      <li>Tento model má za cíl vytvořit více kopií zálohovaných dat vhodnějším způsobem. Nejdříve je provedena úplná záloha všech dat. Posléze je prováděna inkrementální záloha (ukládány jsou pouze soubory, které se změnily od předešlé úplné nebo inkrementální zálohy). Hlavní nevýhodou je, že při obnovení zálohy je potřeba pracovat s úplnou zálohou a následně se všemi inkrementálními zálohami až k požadovanému okamžiku zálohy, což může být velmi náročné na pracovní prostor.</li>
+    </ul>
+  </li>
+  <li><strong>Úplná + Rozdílová</strong>
+    <ul>
+      <li>Rozdíl oproti předešlé metodě je v tom, že po úplné záloze se každá částečná záloha zachytí všechny soubory vytvořené nebo změněné od vytvoření úplné zálohy, třebaže některé už jsou obsaženy v předešlé částečné záloze. Výhodou je, že obnova zahrnuje obnovení pouze poslední úplné zálohy, a potom její překrytí poslední rozdílovou zálohou, takže je proces obnovení více odolný vůči defektu média se zálohou.</li>
+    </ul>
+  </li>
+  <li><strong>Zrcadlová + Reverzně přírůstková</strong>
+    <ul>
+      <li>Tento model obsahuje zrcadlo reflektující stav systému po poslední záloze a historii přírůstkových záloh. Výhodou je, že máme neustále k dispozici aktuální plnou zálohu a ukládáme pouze historii změn. Každé zálohování se automaticky promítá do zrcadla a soubory, které byly změněny, jsou přesunuty do přírůstkové zálohy. Tato metoda se nehodí pro přenosná media, protože každá záloha musí být provedena pomocí srovnání se zrcadlem.</li>
+    </ul>
+  </li>
+  <li><strong>Průběžná ochrana dat</strong>
+    <ul>
+      <li>Tato metoda využívá místo plánovaných periodických záloh okamžitý zápis každé změny do žurnálu změn (logu). Provádí se ukládáním změněných bajtů nebo celých bloků dat místo ukládání celých změněných souborů. Průběžný záznam změn v žurnálu umožňuje získat obraz dat v minulosti. Naproti tomu prosté zrcadlení dat na druhý disk (např. RAID 1) stav v minulosti nezachycuje.</li>
+    </ul>
+  </li>
+  <li><strong>Úplná záloha systému</strong>
+    <ul>
+      <li>Metoda zálohuje obvykle celý počítač včetně operačního systému, vytváří obraz disku. K tomuto typu zálohování je třeba specializovaný software, jako je např. Acronis True Image</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="komprimace-dekomprimace">Komprimace, dekomprimace</h2>
+
+<blockquote>
+  <p><strong>Komprimace</strong> je proces, při kterém jsou data (soubory i celé adresáře) převedena (tzv. zkomprimována) do souboru zabírajícího méně místa (proto se tomu někdy říká zabalení).</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Dekomprimace</strong> je proces opačný zkomprimovaná (zabalená) data se převedou (rozbalí) zpět do původního tvaru</p>
+</blockquote>
+
+<ul>
+  <li><strong>formáty bez komprese</strong> - např. BMP – na disku zabere nejvíce místa</li>
+  <li><strong>formáty s bezeztrátovou kompresí</strong> - např. PCX, GIF – obrázek je stále stejný, ale na disku zabere méně místa (např. třetinu)</li>
+  <li><strong>formáty se ztrátovou kompresí</strong> - např. JPG – obrázek se trochu poškodí (což oko nepozná), ale na disku zabere málo místa (např. desetinu)</li>
+</ul>
+
+<h3 id="význam-a-užití">Význam a užití</h3>
+
+<ul>
+  <li>hlavním důvodem pro komprimaci dat je nedostatečná kapacita paměťových médií (zejména disket)</li>
+  <li>typické užití: přenášení dat mezi počítači pomocí disket (pokud se nějaký soubor na disketu nevejde, je nutno ho zkomprimovat)</li>
+  <li>dalším užitím je zabalení nepoužívaného SW na pevném disku (až bude potřeba, tak se rozbalí)</li>
+</ul>
+
+<h3 id="princip">Princip</h3>
+
+<ul>
+  <li>
+    <p>v počítači jsou všechny informace kódovány pomocí nul a jedniček – libovolný soubor si lze představit jako posloupnost nul a jedniček (např. 0010111010110001010110 atd.)</p>
+  </li>
+  <li>
+    <p>jelikož se v těchto posloupnostech často opakují některé úseky (často se např. může opakovat čtveřice 0011), lze celou posloupnost (celý soubor) překódovat tak, aby byla nakonec kratší (což se právě děje při komprimaci)</p>
+  </li>
+</ul>
+
+<h3 id="komprimační-programy">Komprimační programy</h3>
+
+<blockquote>
+  <p>Pro komprimaci a dekomprimaci se používají tzv. komprimační programy.</p>
+</blockquote>
+
+<p><strong>Všechny komprimační programy lze hodnotit především podle:</strong></p>
+<ol>
+  <li>tzv. kompresního poměru
+    <ul>
+      <li>udává, jak hodně dokáže komprimační program zmenšit balená data (v průměru)</li>
+      <li>např. poměr 2:1 znamená, že program (v průměru) balí data na poloviční velikost (někdy se komp. poměr udává v % - pak poměr 60 % znamená, že se soubor zmenšil o 60 %)</li>
+      <li>různé typy souborů (texty, obrázky, programy) lze zabalit různě úspěšně (texty lze někdy zmenšit až na jednu desetinu, obrázky někdy nelze zmenšit vůbec)</li>
+    </ul>
+  </li>
+  <li>rychlosti práce
+    <ul>
+      <li>s komprimací se uživatel nevědomky setkává také při používání grafických programů:</li>
+      <li>obrázky, se kterými grafické programy pracují, zabírají obvykle na disku mnoho místa</li>
+      <li>grafické programy proto umí při ukládání obrázek zabalit - záleží na tom, jaký grafický formát (GIF, PCX, BMP, ..) vyberete – grafické formáty se dělí na:</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<p><strong>Zdroje</strong></p>
+
+<ul>
+  <li><a href="https://www.maturita.digitalwizard.cz/okruhy/5-zaznamova-media/">https://www.maturita.digitalwizard.cz/okruhy/5-zaznamova-media/</a></li>
+  <li><a href="https://cs.wikipedia.org/wiki/Z%C3%A1lohov%C3%A1n%C3%AD_dat">https://cs.wikipedia.org/wiki/Z%C3%A1lohov%C3%A1n%C3%AD_dat</a></li>
+  <li><a href="http://www2.ef.jcu.cz/~inrem/edu/it/komprimace/">http://www2.ef.jcu.cz/~inrem/edu/it/komprimace/</a></li>
+</ul>
 
 
             

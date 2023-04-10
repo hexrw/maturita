@@ -32,15 +32,15 @@ jednoho autora**, každé musí být z jiného žánru.
 
 1. [Erben, K. J.: Kytice - 168, balada](./kytice)
 2. [Poe, E. A.: Havran - 112, epická poezie*](./havran)
-3. [Tyl, J. K.: Strakonický dudák - 83, lyrika/epika/drama, próza/poezie, pohádka*](./strakonicky-dudak)
+3. [Tyl, J. K.: Strakonický dudák - 83, lyrika/epika/drama, próza/poezie, pohádka](./strakonicky-dudak)
 4. [K. H. Mácha: Máj - 80, poezie](./maj)
 5. [Havlíček Borovský, K.: Tyrolské elegie - 14, epika, satirická báseň](./tyrolske-elegie)
 
 
 ## Světová literatura 20. a 21. stol.
 
-1. [Orwell, G.: 1984 - 261, epika, román, politická fikce/dystopická fikce*](./1984)
-2. [Christiane F.: My děti ze stanice ZOO - 262, epika, próza, autobiografie/reportážní román/biografie*](./my-deti-ze-stanice-zoo)
+1. [Orwell, G.: 1984 - 261, epika, román, politická fikce/dystopická fikce](./1984)
+2. [Christiane F.: My děti ze stanice ZOO - 262, epika, próza, autobiografie/reportážní román/biografie](./my-deti-ze-stanice-zoo)
 3. [Hemingway, E.: Stařec a moře - 112, epika, próza, novela](./starec-a-more)
 4. [Saint-Exupéry, A.: Malý princ - 96, epika, próza, filosofická pohádka](./maly-princ)
 5. [Giono J.: Muž, který sázel stromy - 86, epika, próza, fikce, novela*](./muz-ktery-sazel-stromy)
@@ -54,8 +54,13 @@ jednoho autora**, každé musí být z jiného žánru.
 2. [Hrabal, B.: Ostře sledované vlaky - 76, próza, novela*](./ostre-sledovane-vlaky)
 3. [Svěrák, Z., Smoljak, L.: České nebe - 71, komedie*](./ceske-nebe)
 4. [Kafka, F.: Proměna - 58, epika, novela/absurdní fikce](./promena)
-5. [Čapek, K.: R.U.R. - 128, pragmatismus, utopické drama/tragedie*](./rur)
+5. [Čapek, K.: R.U.R. - 128, pragmatismus, utopické drama/tragedie](./rur)
 6. [Pavel, O.: Smrt krásných srnců - 109, epika, próza, autobiografický povídkový soubor](./smrt-krasnych-srncu)
 7. [Dyk, V.: Krysař - 133, epika, novela](./krysar)
 8. [Čapek, K.: Bílá nemoc - 96, próza, tragedie/drama/fantazie](./bila-nemoc)
-9. [Vrchlický, J.: Noc na Karlštejně - 92, drama, komedie*](./noc-na-karlstejne)
+9. [Vrchlický, J.: Noc na Karlštejně - 92, drama, komedie](./noc-na-karlstejne)
+
+
+## Vysvětlení pojmů
+
+[Vysvětlení pojmů](./vysvetleni-pojmu)
