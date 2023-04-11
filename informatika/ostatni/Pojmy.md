@@ -6,7 +6,23 @@ permalink: /informatika/ostatni/pojmy/
 
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
-<div x-data="{ topic: '1' }">
+<div x-data="{
+    topic: '1',
+    data: [],
+    getData() {
+        let promises = []
+        for (i = 1; i <= 25; i++) {
+            promises.push(
+                fetch('/informatika/ostatni/pojmy/' + i)
+                    .then(res => res.text())
+                    .then(html => /<body.*?>([\s\S]*)<\/body>/.exec(html)[1])
+            )
+        }
+        Promise.all(promises).then(res => {
+            this.data = res
+        })
+    }
+}" x-init="getData()">
 
 <label for="topics">Vyber téma:</label>
 <select id="topics" x-model="topic">
@@ -37,167 +53,6 @@ permalink: /informatika/ostatni/pojmy/
 <option value="25">Záznamová média a zálohování dat, komprimace</option>
 </select>
 
-<div x-show="topic == '1'">
-
-- **Algoritmus**
-    - vlastnosti
-    - dělení
-    - složitost
-        - asymptotická složitost
-        - třída složitosti
-    - paradigma návrhu
-- **Vývojový diagram**
-    - symboly
-    - význam a použití
-    - druhy
-- **Deklarace proměnných**
-    - implicitní a explicitní deklarace
-    - proměnné
-
-</div>
-
-<div x-show="topic == '2'">
-
-...
-
-</div>
-
-<div x-show="topic == '3'">
-
-...
-
-</div>
-
-<div x-show="topic == '4'">
-
-...
-
-</div>
-
-<div x-show="topic == '5'">
-
-...
-
-</div>
-
-<div x-show="topic == '6'">
-
-...
-
-</div>
-
-<div x-show="topic == '7'">
-
-...
-
-</div>
-
-<div x-show="topic == '8'">
-
-...
-
-</div>
-
-<div x-show="topic == '9'">
-
-...
-
-</div>
-
-<div x-show="topic == '10'">
-
-...
-
-</div>
-
-<div x-show="topic == '11'">
-
-...
-
-</div>
-
-<div x-show="topic == '12'">
-
-...
-
-</div>
-
-<div x-show="topic == '13'">
-
-...
-
-</div>
-
-<div x-show="topic == '14'">
-
-...
-
-</div>
-
-<div x-show="topic == '15'">
-
-...
-
-</div>
-
-<div x-show="topic == '16'">
-
-...
-
-</div>
-
-<div x-show="topic == '17'">
-
-...
-
-</div>
-
-<div x-show="topic == '18'">
-
-...
-
-</div>
-
-<div x-show="topic == '19'">
-
-...
-
-</div>
-
-<div x-show="topic == '20'">
-
-...
-
-</div>
-
-<div x-show="topic == '21'">
-
-...
-
-</div>
-
-<div x-show="topic == '22'">
-
-...
-
-</div>
-
-<div x-show="topic == '23'">
-
-...
-
-</div>
-
-<div x-show="topic == '24'">
-
-...
-
-</div>
-
-<div x-show="topic == '25'">
-
-...
-
-</div>
+<div x-html="data[topic - 1]"></div>
 
 </div>
