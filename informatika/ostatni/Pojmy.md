@@ -7,7 +7,7 @@ permalink: /informatika/ostatni/pojmy/
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 <div x-data="{
-    topic: '9',
+    topic: '1',
     data: [],
     getData() {
         let promises = []
@@ -56,7 +56,7 @@ permalink: /informatika/ostatni/pojmy/
 <div x-html="data[topic - 1]"></div>
 
 <div
-    x-if="topic === '9'"
+    x-show="topic == '9'"
     x-data="{
         from: '2',
         to: '10',
