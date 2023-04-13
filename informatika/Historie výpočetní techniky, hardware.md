@@ -42,7 +42,7 @@ A právě on stál na počátku zrodu počítače SAPO (SAmočinný POčítač).
 
 ![SAPO](https://cdn.alza.cz/Foto/ImgGalery/Image/prvni-pocitac-sapo.jpg)
 
-V levé části je k vidění přímo počítač SAPO, na pravé straně náčrtek místností s rozmístěním jednotlivých částí PC.
+V levé části je k vidění přímo počítač SAPO, na pravé straně náčrtek místností s rozmístěním jednotlivých částí.
 
 Tři roky po svém spuštění, tedy v roce 1960, však počítač SAPO shořel. Z jiskřících reléových kontaktů se totiž vzňala loužička oleje, kterým se relé promazávala. Celkově je nutné brát na zřetel časový posun, který znamenal, že rozvoj počítačů v Československu byl o pěkných pár let opožděn ve srovnání například s USA.
 
@@ -80,7 +80,7 @@ V našich končinách se podařilo vylepšit počítač EPOS na jeho druhou gene
 
 ## Třetí generace počítačů
 
-Ve třetí generaci, která je časově ohraničena lety 1965 až 1980, se setkáváme s integrovanými obvody (IO). Jde o elektronickou součástku složenou z mnoha jednoduchých součástek, které společně tvoří elektrický obvod. Ruku v ruce s tím strmě roste počet tranzistorů i celkový výkon. Taktéž se snad vůbec poprvé objevuje pojem proces, kdy CPU zpracovává jednu úlohu (proces), ale zároveň pracuje s daty jiné úlohy. Počítače třetí generace jsou stále označované jako sálové PC, ale postupně došlo i na skutečné mikropočítače, které šlo snadno přenášet z místa na místo.
+Ve třetí generaci, která je časově ohraničena lety 1965 až 1980, se setkáváme s integrovanými obvody (IO). Jde o elektronickou součástku složenou z mnoha jednoduchých součástek, které společně tvoří elektrický obvod. Ruku v ruce s tím strmě roste počet tranzistorů i celkový výkon. Taktéž se snad vůbec poprvé objevuje pojem proces, kdy CPU zpracovává jednu úlohu (proces), ale zároveň pracuje s daty jiné úlohy. Počítače třetí generace jsou stále označované jako sálové počítače, ale postupně došlo i na skutečné mikropočítače, které šlo snadno přenášet z místa na místo.
 
 Mezi ikonické představitele třetí generace jistě patří IBM System 360. Tento počítač, který byl firmou IBM nabízen od roku 1965, měl procesorovou jednotku složenou z diskrétních elektronických součástek, tj. především tranzistorů, diod a rezistorů. Snadno rozšiřitelná modulární platforma si našla mnoho způsobů využití a stojí za vzestupem IBM. Přestože se dostaly počítače IBM do velkých firem i institucí po celém světě, nejslavnějším uplatněním stále zůstává nasazení počítačů System 360 při přistání člověka na Měsíci. Pět superpočítačů IBM System 360 (Model 75) monitorovalo v reálném čase všechny informace přicházející z vesmírné lodi Apollo 11.
 
@@ -88,13 +88,13 @@ Mezi ikonické představitele třetí generace jistě patří IBM System 360. Te
 
 *Modulární architektura systému IBM 360 ale umožnila trvalou rozšiřitelnost a dlouhodobou výdrž.*
 
-Pokud se podíváme na situaci v Československu jako na součást socialistického bloku, klesala možnost dovozu potřebných součástek ze západního světa. Vzorem pro řadu počítačů JSEP-R1 byl právě americký počítač IBM System 360. Dostupná technologická základna však nedovolovala přímé kopírování, a počítače se musely navrhovat z domácích součástek. Sériová výroba některých systémů řady JSEP-R1, označovaných původně jako RJAD 1, byla pak zahájena v roce 1972, což je poměrně velký časový skluz vůči originálním PC v USA. Československo se v první fázi programu JSEP podílelo na vývoji jednoho počítače a téměř třiceti druhů přídavných zařízení včetně zařízení pro přípravu dat a příslušného programového vybavení.
+Pokud se podíváme na situaci v Československu jako na součást socialistického bloku, klesala možnost dovozu potřebných součástek ze západního světa. Vzorem pro řadu počítačů JSEP-R1 byl právě americký počítač IBM System 360. Dostupná technologická základna však nedovolovala přímé kopírování, a počítače se musely navrhovat z domácích součástek. Sériová výroba některých systémů řady JSEP-R1, označovaných původně jako RJAD 1, byla pak zahájena v roce 1972, což je poměrně velký časový skluz vůči originálním počítačům v USA. Československo se v první fázi programu JSEP podílelo na vývoji jednoho počítače a téměř třiceti druhů přídavných zařízení včetně zařízení pro přípravu dat a příslušného programového vybavení.
 
 <iframe width="580" height="326" src="https://www.youtube.com/embed/ljkMl5G00Gw" title="Sálový počítač EC1021 - Úvod do programování v jazyku Fortran (1981)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Čtvrtá generace počítačů
 
-Celé období od roku 1981 se počítá do čtvrté počítačové generace, která přinesla velký technologický pokrok ve znamení mikroprocesorů. Mikroprocesor je číslicový integrovaný obvod s vysokou integrací, který vykonává počítačový program uložený v operační paměti počítače. Díky tomu došlo ke zvýšení spolehlivosti, rychlosti a současně nastává velký ústup velkých sálových počítačů ve prospěch osobních PC.
+Celé období od roku 1981 se počítá do čtvrté počítačové generace, která přinesla velký technologický pokrok ve znamení mikroprocesorů. Mikroprocesor je číslicový integrovaný obvod s vysokou integrací, který vykonává počítačový program uložený v operační paměti počítače. Díky tomu došlo ke zvýšení spolehlivosti, rychlosti a současně nastává velký ústup velkých sálových počítačů ve prospěch osobních počítačů.
 
 Z uživatelského hlediska tak nastávají zlaté časy. Dostáváme se totiž do éry operačního systému DOS a postupně vznikajících různých graficky přívětivých rozhraní.
 
@@ -123,10 +123,6 @@ Při pohledu do počítačové historie nesmíme v žádném případě vynechat
 *Přesně 11. dubna 1976 vypustil do světa svůj první počítač Apple.*
 
 Po představení v kalifornském Los Altos dokázali v ikonické garáži vyrobit 200 kusů. Po hardwarové stránce nabízel Apple 1 operační paměť o velikosti 4 kB doplněnou mikroprocesorem MOS Technology 6502 s frekvencí 1 MHz. Počítač tvořila série obvodů, k nimž bylo třeba dokoupit napájecí zdroj a monitor, a navíc doinstalovat vlastní programy. I přes cenu 500 dolarů byl zájem zcela mimořádný. Z dnešního pohledu jde o zcela raritní kousky, takže Apple I se snadno vydraží i za 500 000 dolarů.
-
-## Výhled do budoucnosti počítačů
-
-Sami vidíte, že historie počítačů je velmi košaté téma a každá generace by si jistě zasloužila detailnější pohled. Nicméně člověk je tvor zvídavý, a proto je dobré nežít jen minulostí, ale soustředit se i na budoucnost. Z historického hlediska jsme možná právě teď na prahu páté počítačové generace. Zažíváme totiž rozmach umělé inteligence a stále více se spekuluje o kvantových počítačích.
 
 ## Hardware osobního počítače
 
