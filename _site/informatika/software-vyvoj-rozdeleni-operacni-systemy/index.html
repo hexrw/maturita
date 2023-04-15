@@ -20,6 +20,12 @@
                 font-size: 1.25rem;
                 padding-bottom: 1.5rem;
             }
+
+            @media (prefers-color-scheme: dark) {
+                .dark\:invert {
+                    filter: invert(100%) hue-rotate(180deg);
+                }
+            }
         </style>
     </head>
     <body>

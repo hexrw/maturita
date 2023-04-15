@@ -10,9 +10,27 @@ permalink: /informatika/procedury-a-funkce-druhy-parametru/
 
 > Jako procedura se označuje programová část (ve většině případů obyčejná [funkce](#funkce)), která nevrací žádnou hodnotu.
 
+*Příklad procedury v Pythonu:*
+
+```python
+def funkce():
+    udelej_neco()
+
+funkce() # žádná návratová hodnota
+```
+
 ## Funkce
 
 > Funkce je pojmenovaný blok kódu, jehož účelem je vrátit hodnotu (tzv. *"návratovou hodnotu"*, angl. *"return value"*). Stejně jako proceduru může funkci zavolat jiná část programu.
+
+*Příklad funkce v Pythonu:*
+
+```python
+def pozdrav(jmeno): # jmeno je parametr funkce
+    print("Ahoj", jmeno)
+
+pozdrav("Karle") # Ahoj Karle
+```
 
 ## Parametry (argumenty)
 
@@ -22,5 +40,5 @@ permalink: /informatika/procedury-a-funkce-druhy-parametru/
 
 **Zdroje**
 
-[https://www.fd.cvut.cz/personal/xfabera/PRG1/prednasky/prednaska4/prednaska4.php?num=4](https://www.fd.cvut.cz/personal/xfabera/PRG1/prednasky/prednaska4/prednaska4.php?num=4)
-[https://press.rebus.community/programmingfundamentals/chapter/parameters-and-arguments/](https://press.rebus.community/programmingfundamentals/chapter/parameters-and-arguments/)
+- [https://www.fd.cvut.cz/personal/xfabera/PRG1/prednasky/prednaska4/prednaska4.php?num=4](https://www.fd.cvut.cz/personal/xfabera/PRG1/prednasky/prednaska4/prednaska4.php?num=4)
+- [https://press.rebus.community/programmingfundamentals/chapter/parameters-and-arguments/](https://press.rebus.community/programmingfundamentals/chapter/parameters-and-arguments/)

@@ -20,6 +20,12 @@
                 font-size: 1.25rem;
                 padding-bottom: 1.5rem;
             }
+
+            @media (prefers-color-scheme: dark) {
+                .dark\:invert {
+                    filter: invert(100%) hue-rotate(180deg);
+                }
+            }
         </style>
     </head>
     <body>
@@ -73,11 +79,27 @@
   <p>Jako procedura se označuje programová část (ve většině případů obyčejná <a href="#funkce">funkce</a>), která nevrací žádnou hodnotu.</p>
 </blockquote>
 
+<p><em>Příklad procedury v Pythonu:</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">funkce</span><span class="p">():</span>
+    <span class="n">udelej_neco</span><span class="p">()</span>
+
+<span class="n">funkce</span><span class="p">()</span> <span class="c1"># žádná návratová hodnota
+</span></code></pre></div></div>
+
 <h2 id="funkce">Funkce</h2>
 
 <blockquote>
   <p>Funkce je pojmenovaný blok kódu, jehož účelem je vrátit hodnotu (tzv. <em>“návratovou hodnotu”</em>, angl. <em>“return value”</em>). Stejně jako proceduru může funkci zavolat jiná část programu.</p>
 </blockquote>
+
+<p><em>Příklad funkce v Pythonu:</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">pozdrav</span><span class="p">(</span><span class="n">jmeno</span><span class="p">):</span> <span class="c1"># jmeno je parametr funkce
+</span>    <span class="k">print</span><span class="p">(</span><span class="s">"Ahoj"</span><span class="p">,</span> <span class="n">jmeno</span><span class="p">)</span>
+
+<span class="n">pozdrav</span><span class="p">(</span><span class="s">"Karle"</span><span class="p">)</span> <span class="c1"># Ahoj Karle
+</span></code></pre></div></div>
 
 <h2 id="parametry-argumenty">Parametry (argumenty)</h2>
 
@@ -89,8 +111,10 @@
 
 <p><strong>Zdroje</strong></p>
 
-<p><a href="https://www.fd.cvut.cz/personal/xfabera/PRG1/prednasky/prednaska4/prednaska4.php?num=4">https://www.fd.cvut.cz/personal/xfabera/PRG1/prednasky/prednaska4/prednaska4.php?num=4</a>
-<a href="https://press.rebus.community/programmingfundamentals/chapter/parameters-and-arguments/">https://press.rebus.community/programmingfundamentals/chapter/parameters-and-arguments/</a></p>
+<ul>
+  <li><a href="https://www.fd.cvut.cz/personal/xfabera/PRG1/prednasky/prednaska4/prednaska4.php?num=4">https://www.fd.cvut.cz/personal/xfabera/PRG1/prednasky/prednaska4/prednaska4.php?num=4</a></li>
+  <li><a href="https://press.rebus.community/programmingfundamentals/chapter/parameters-and-arguments/">https://press.rebus.community/programmingfundamentals/chapter/parameters-and-arguments/</a></li>
+</ul>
 
 
             

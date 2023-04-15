@@ -17,6 +17,12 @@ Laserová show je živé multimediální představení.
 
 Zvýšená úroveň interaktivity je možná díky kombinaci více forem mediálního obsahu. Online multimédia se stále více orientují na objekty a data, což umožňuje aplikace se společnou inovací koncových uživatelů a personalizaci na více formách obsahu v čase. Příklady takových aplikací sahají od více forem obsahu na webových stránkách, jako jsou fotogalerie s obrázky (obrázky) i nadpisy (texty) aktualizovanými uživatelem, až po simulace, jejichž součinitele, události, ilustrace, animace nebo videa lze měnit, což umožňuje měnit multimediální "zážitek" bez přeprogramování. Kromě vidění a slyšení umožňuje haptická technologie virtuální objekty i ohmatat. Multimediální zážitek může vylepšit i nově vznikající technologie zahrnující iluze chuti a čichu.
 
+**Minimální multimediální přehrávací soustava obsahuje:**
+- Zvukovou kartu
+- Čtecí jednotku CD-ROM
+- Sluchátka nebo reproduktory
+- Příslušný software
+
 ## Kategorizace
 
 **Multimédia lze obecně rozdělit do lineárních a nelineárních kategorií:**

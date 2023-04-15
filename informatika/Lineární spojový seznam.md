@@ -46,7 +46,7 @@ ostatních prvků se změna nedotkne.
 
 Máme tedy efektivní vkládání a mazání prvků na úkor
 neefektivního přístupu na indexy. Tak už to u datových struktur a
-algoritmů bývá, něco za něco 
+algoritmů bývá, něco za něco.
 
 Vidíme, že spojový seznam a seznam přes pole se velmi liší. Pokud
 budeme často přistupovat k prvkům pomocí indexu, byl by spojový seznam
@@ -71,20 +71,10 @@ extrémně pomalý.
 
 ### Nebezpečí
 
-Má to ale háček, pointery samostatné. Jsou vynikajícím nástrojem pro
-programátora, ale jsou natolik silné, že můžou natropit pořádnou paseku.
-Asi jako byste si chtěli krájet chleba motorovou pilou. V moderních jazycích
-jako např. Java proto pointery nejsou, jsou tu pouze tzv.
-reference. Reference je něco jako pointer, ale vy s tím pointerem nemůžete
-přímo pracovat a tím způsobit např. poškození jiné části
-paměti. Více o pointerech se dozvíme v seriálu Principy fungování počítačů.
+Má to ale háček, pointery samostatné. Jsou vynikajícím nástrojem pro programátora, ale jsou natolik silné, že můžou natropit pořádnou paseku. Asi jako byste si chtěli krájet chleba motorovou pilou. V moderních jazycích jako např. Java proto pointery nejsou, jsou tu pouze tzv. reference. Reference je něco jako pointer, ale vy s tím pointerem nemůžete přímo pracovat a tím způsobit např. poškození jiné části paměti. Více o pointerech se dozvíme v seriálu Principy fungování počítačů.
 
 Spojový seznam se často používá pro implementaci datových struktur
 fronty a zásobníku.
-
-V další lekci, Fronta a zásobník, si ukážeme, jak fungují datové struktury fronta
-a zásobník, k čemu se v praxi používají, a jaké časové složitosti
-mají jejich operace.
 
 ----------------
 

@@ -4,13 +4,15 @@ title: Tabulkové kalkulátory, textové editory
 permalink: /informatika/tabulkove-kalkulatory-textove-editory/
 ---
 
-## Tabulkový kalkulátor
+## Tabulkový kalkulátor/procesor (spreadsheet)
+
+> Program zpracovávající informace zapsané na virtuálním listu/archu. Výsledkem je tabulka, která je možné zpracovat a zobrazit v různých formátech.
 
 - MS Excel je určen hlavně k tvorbě tabulek a práce s nimi
-- MS Excel lze používat jako kalkulátor, nástroj pro tvorbu grafů, statistiky, tabulky, matematické operace a funkce­…
+- MS Excel lze používat jako kalkulátor, nástroj pro tvorbu grafů, statistiky, tabulky, matematické operace a funkce­...
 - po textovém editoru v praxi druhý nevyužívanější editor
 
-**Prostředí tabulkového kalkulátoru MS Excel**
+**Prostředí tabulkového kalkulátoru/procesoru MS Excel**
 
 - Excel vzhledem připomíná papírový sešit s několika listy
 - na jednotlivých listech mohou být výpočty, grafy, obrázky…
@@ -18,7 +20,7 @@ permalink: /informatika/tabulkove-kalkulatory-textove-editory/
 - v každém čtverečku může být uložené nějaké číslo, text, logická hodnota apod.
 - pracovní plochu tvoří mřížka a jednotlivé „čtverečky“ nazýváme buňky
 - buňka je nejmenší část pracovní plochy, do níž lze zapisovat text nebo čísla
-- z důvodu orientace jsou sloupce (buňky ve svislém směru) označeny písmeny a řádky (buňky ve vodorovném směru označeny číslem. Obdoba „lodí“
+- z důvodu orientace jsou sloupce (buňky ve svislém směru) označeny písmeny a řádky (buňky ve vodorovném směru označeny číslem; obdoba "lodí"
 
 **Vzorec:**
 - díky vzorci můžeme programu určit, jaké matematické operace má provádět a s jaké buňky má do sebe zahrnout
@@ -58,7 +60,7 @@ permalink: /informatika/tabulkove-kalkulatory-textove-editory/
 - kopírovat či přenášet
 - vytváří strukturu dokumentu pomocí stylů odstavců, vkládání obrázků a objektů, tvorbu tabulek, grafů
 
-### Textovým editor vs textovým procesor
+### Textový editor vs textový procesor
 
 **Textový editor** je program, který slouží k úpravám prostého textu neobsahujícího formátovací informace. Na rozdíl od textových procesorů, se kterými se často pletou, postrádají textové editory schopnost měnit vzhled obsahu dokumentu. Zaměřují se pouze na vytvoření obsahu – například vytváření konfiguračních souborů, zdrojových kódů pro  počítačové programy a podobně.
 
