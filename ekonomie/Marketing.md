@@ -2,7 +2,6 @@
 layout: default
 title: Marketing
 permalink: /ekonomie/marketing/
-pdf: true
 ---
 
 > Marketing je sociální a manažerský proces, jehož pomocí získávají lidé to, co potřebují nebo po čem touží, a to na základě produkce komodit (výrobků, zboží, služeb) a jejich směny za jiné komodity nebo za peníze.
@@ -289,6 +288,14 @@ pdf: true
 - podnik dostane nabídku od nového odběratele
 podnik se musí rozhodnout, do jakého segmentu trhu (nejvyšší, luxusní, výběrová, střední, dobrá, imitace značkové, nejistá) umístí svůj výrobek z hlediska jeho kvality a ceny
 
+**Základní způsoby stanovení cen:**
+- Nákladově orientovaná cena
+- Cena orientovaná na konkurenci
+- Cena dle hodnoty vnímané zákazníkem
+- Cena orientovaná na poptávku
+- Smluvní cena
+- Konkurzní cena
+
 ### Cenové strategie
 
 **V současné době používají vyspělé firmy 4 druhy cen. strategií:**
@@ -300,15 +307,6 @@ podnik se musí rozhodnout, do jakého segmentu trhu (nejvyšší, luxusní, vý
     - podniky dosahují relativně nízkých nákladů při výrobě zboží unikátních vlastností a mají možnost měnit své ceny podle vývoje tržní situace
 - **strategie přizpůsobování**
     - u firem, které praktikují strategii přizpůsobování, může mít snižování cen řetězový efekt
-
-### Základní způsoby stanovení cen
-
-- Nákladově orientovaná cena
-- Cena orientovaná na konkurenci
-- Cena dle hodnoty vnímané zákazníkem
-- Cena orientovaná na poptávku
-- Smluvní cena
-- Konkurzní cena
 
 ### Cenová rozlišení, slevy a srážky
 
@@ -476,7 +474,7 @@ Na jedné straně musíte financovat aktivity, které přispějí ke splnění v
 
 ## Marketingový proces
 
-<img alt="MKT 15" src="/assets/mkt-15.jpg" style="max-width: 600px;" />
+<img alt="MKT 15" src="/assets/mkt-15.jpg" />
 
 ## Segmentace trhu
 

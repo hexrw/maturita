@@ -7,15 +7,14 @@ permalink: /ekonomie/zakladni-ekonomicke-pojmy-a-subjekty-narodniho-hospodarstvi
 Základní ekonomické pojmy
 -------------------------
 
-**Ekonomie** – je teoretická vědní disciplína
-**Ekonomika** – je praktická aplikace ekonomie
+- **Ekonomie** – je teoretická vědní disciplína
+- **Ekonomika** – je praktická aplikace ekonomie
 
 **Dělení standardní ekonomie**:
-**Mikroekonomie** – zkoumá dílčí segmenty ekonomiky, zabývá se:
-- Chováním dílčích ekonomických subjektů
-- Situací na dílčím trhu 
-
-**Makroekonomie** – zkoumá fungování ekonomiky jako celku, zabývá se ekonomickými jevy jako souhrnem
+- **Mikroekonomie** – zkoumá dílčí segmenty ekonomiky, zabývá se:
+    - Chováním dílčích ekonomických subjektů
+    - Situací na dílčím trhu 
+- **Makroekonomie** – zkoumá fungování ekonomiky jako celku, zabývá se ekonomickými jevy jako souhrnem
 
 ### Základní ekonomické otázky
 
@@ -26,16 +25,16 @@ Každá společnost musí řešit:
 
 ### Ekonomické systémy
 
-- Zvykový systém – ekonomické rozhodování a chování člověka se řídí podle zvyků, obyčejů a tradic (dávná historie, ale např. i u nás prodej vánočních kaprů)
-- Příkazový systém - stát rozhoduje o všech hospodářských otázkách prostřednictvím příkazů (pětileté plány), základem je společenské vlastnictví výrobních prostředků
-- Tržní systém – ekonomika řízená je tzv. tržním  mechanismem - nabídka a poptávka po zboží
-- Smíšený systém – do tržního prostředí zasahuje stát a zmírňuje dopady tržního systému
+- **Zvykový systém** – ekonomické rozhodování a chování člověka se řídí podle zvyků, obyčejů a tradic (dávná historie, ale např. i u nás prodej vánočních kaprů)
+- **Příkazový systém** - stát rozhoduje o všech hospodářských otázkách prostřednictvím příkazů (pětileté plány), základem je společenské vlastnictví výrobních prostředků
+- **Tržní systém** – ekonomika řízená je tzv. tržním  mechanismem - nabídka a poptávka po zboží
+- **Smíšený systém** – do tržního prostředí zasahuje stát a zmírňuje dopady tržního systému
 
-### Subjekty ekonomických systému
+### Subjekty ekonomických systémů
 
-- Domácnost – subjekt, který uspokojuje  své potřeby, nakupuje výrobky a služby a prodává svou pracovní sílu. Cílem je maximalizace svého užitku
-- Firma – subjekt, který prodává výrobky a služby  a  nakupuje výrobní faktory. Jejich cílem je maximalizace svého zisku
-- Stát – subjekt, který vybírá daně, sestavuje státní rozpočet, přerozděluje veřejné finance, vytváří legislativu
+- **Domácnost** – subjekt, který uspokojuje  své potřeby, nakupuje výrobky a služby a prodává svou pracovní sílu. Cílem je maximalizace svého užitku
+- **Firma** – subjekt, který prodává výrobky a služby  a  nakupuje výrobní faktory. Jejich cílem je maximalizace svého zisku
+- **Stát** – subjekt, který vybírá daně, sestavuje státní rozpočet, přerozděluje veřejné finance, vytváří legislativu
 
 ### Potřeby
 
@@ -62,21 +61,22 @@ Každá společnost musí řešit:
 
 **Statek** - předmět, věc a hodnota, která může  uspokojovat lidské potřeby
 
-Dělení statků:
-A)
-- hmotné – výsledek lidské činnosti (rohlík, auto, televize …)
-- nehmotné – duševní výtvory člověka (vzdělání, kulturní, sportovní zážitek, cestování …)
+**Dělení statků:**  
 
-B)
-- volné – nacházejí se volně v přírodě, nemusí se za ně platit (voda, vzduch, lesní plody ….)
-- ekonomické – jsou produkty lidské práce, musí se za ně platit (balená voda, chléb, auto)
+**A)**
+- **hmotné** – výsledek lidské činnosti (rohlík, auto, televize …)
+- **nehmotné** – duševní výtvory člověka (vzdělání, kulturní, sportovní zážitek, cestování …)
+
+**B)**
+- **volné** – nacházejí se volně v přírodě, nemusí se za ně platit (voda, vzduch, lesní plody ….)
+- **ekonomické** – jsou produkty lidské práce, musí se za ně platit (balená voda, chléb, auto)
 	- spotřební – slouží k uspokojení potřeb
 	- kapitálové – slouží k další výrobě
 	- veřejné – stát je poskytuje jakoby zdarma, prostředky na ně získává z daní
 
-**Nemovitosti** – věci spojené se zemí pevným   základem (budovy, pozemky, stavby)
-
-**Movité věci** – všechny ostatní statky (jsou přemístitelné)
+**C)**
+- **nemovitosti** – věci spojené se zemí pevným základem (budovy, pozemky, stavby)
+- **movité věci** – všechny ostatní statky (jsou přemístitelné)
 
 ### Služby
 
@@ -146,20 +146,3 @@ Konečně dochází k uspokojení potřeb
 **Informace**
 - Vzdělání - základní výrobní faktor zkvalitňující práci
 - Technologie - zefektivňuje výrobu, znásobuje účinky práce
-
-------------------------------------------------------------------------
-
-Subjekty národního hospodářství
--------------------------------
-
-### Domácnosti
-
-Subjekt, který uspokojuje své potřeby, nakupuje výrobky a služby a prodává svou pracovní sílu. Cílem je maximalizace svého užitku.
-
-### Firmy
-
-Subjekt, který prodává výrobky a služby a nakupuje výrobní faktory. Jejich cílem je maximalizace svého zisku.
-
-### Stát
-
-Subjekt, který vybírá daně, sestavuje státní rozpočet, přerozděluje veřejné finance, vytváří legislativu

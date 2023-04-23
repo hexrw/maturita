@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Příklady - maturita
-permalink: /ekonomie/priklady-maturita/
+permalink: /ekonomie/ostatni/priklady-maturita/
 ---
 
 Klient si půjčil od banky peněžní obnos ve výši CZK 65.000,-- se splatností na 6 měsíců. Půjčka byla úročena 10 % p.a.. Zjistěte výsledný úrok a kolik korun bude muset klient vrátit bance celkem včetně úroků, výpočtem jednoduchého úročení.
