@@ -4,6 +4,8 @@ title: Ekonomie
 permalink: /ekonomie/
 ---
 
+## Zpracovaná temata
+
 1. [Základní ekonomické pojmy a subjekty národního hospodářství](./zakladni-ekonomicke-pojmy-a-subjekty-narodniho-hospodarstvi)
 2. [Marketing](./marketing)
     - [Alternativní zpracování](./marketing-alt)
@@ -29,6 +31,5 @@ permalink: /ekonomie/
 
 ## Ostatní
 
-- [Pojmy](./ostatni/pojmy)
-
-- [Příklady - maturita](./ostatni/priklady-maturita)
+- [Ústní a praktická část maturitní zkoušky](./ustni-a-prakticka-cast-maturitni-zkousky)
+- [Pojmy](./pojmy)

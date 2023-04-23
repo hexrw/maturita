@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pojmy
-permalink: /ekonomie/ostatni/pojmy/
+permalink: /ekonomie/pojmy/
 ---
 
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -13,7 +13,7 @@ permalink: /ekonomie/ostatni/pojmy/
         let promises = []
         for (i = 1; i <= 20; i++) {
             promises.push(
-                fetch('/ekonomie/ostatni/pojmy/' + i)
+                fetch('/ekonomie/pojmy/' + i)
                     .then(res => res.text())
                     .then(html => /<body.*?>([\s\S]*)<\/body>/.exec(html)[1])
             )
@@ -33,7 +33,7 @@ permalink: /ekonomie/ostatni/pojmy/
     <option value="5">Personální činnost podniku</option>
     <option value="6">Dlouhodobý majetek podniku</option>
     <option value="7">Podnik a podnikání</option>
-    <option value="8">Oběžný majetek podniku*</option>
+    <option value="8">Oběžný majetek podniku</option>
     <option value="9">Daňová soustava ČR zaměřená na nepřímé daně</option>
     <option value="10">Odměňování</option>
     <option value="11">Národní hospodářství</option>
@@ -43,7 +43,7 @@ permalink: /ekonomie/ostatni/pojmy/
     <option value="15">Obchodní banky</option>
     <option value="16">Finanční řízení podniku</option>
     <option value="17">Daňová evidence</option>
-    <option value="18">Náklady a výnosy podniku*</option>
+    <option value="18">Náklady a výnosy podniku</option>
     <option value="19">Trh a tržní mechanismus</option>
     <option value="20">Management</option>
 </select>

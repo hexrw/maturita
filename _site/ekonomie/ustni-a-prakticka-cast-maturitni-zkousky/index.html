@@ -54,11 +54,7 @@
         
     
         
-            / <a href="/ekonomie/ostatni/">Ostatni</a>
-        
-    
-        
-            / Pojmy
+            / Ústní a praktická část maturitní zkoušky
         
     
 </div>
@@ -68,7 +64,7 @@
 
 
             
-                <h1>Pojmy</h1>
+                <h1>Ústní a praktická část maturitní zkoušky</h1>
             
 
             <section>
@@ -82,7 +78,7 @@
         let promises = []
         for (i = 1; i &lt;= 20; i++) {
             promises.push(
-                fetch('/ekonomie/ostatni/pojmy/' + i)
+                fetch('/ekonomie/ostatni/' + i)
                     .then(res =&gt; res.text())
                     .then(html =&gt; /&lt;body.*?&gt;([\s\S]*)&lt;\/body&gt;/.exec(html)[1])
             )
@@ -102,7 +98,7 @@
     <option value="5">Personální činnost podniku</option>
     <option value="6">Dlouhodobý majetek podniku</option>
     <option value="7">Podnik a podnikání</option>
-    <option value="8">Oběžný majetek podniku*</option>
+    <option value="8">Oběžný majetek podniku</option>
     <option value="9">Daňová soustava ČR zaměřená na nepřímé daně</option>
     <option value="10">Odměňování</option>
     <option value="11">Národní hospodářství</option>
@@ -112,7 +108,7 @@
     <option value="15">Obchodní banky</option>
     <option value="16">Finanční řízení podniku</option>
     <option value="17">Daňová evidence</option>
-    <option value="18">Náklady a výnosy podniku*</option>
+    <option value="18">Náklady a výnosy podniku</option>
     <option value="19">Trh a tržní mechanismus</option>
     <option value="20">Management</option>
 </select>
