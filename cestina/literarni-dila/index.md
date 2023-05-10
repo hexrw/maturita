@@ -64,3 +64,7 @@ jednoho autora**, každé musí být z jiného žánru.
 ## Vysvětlení pojmů
 
 [Vysvětlení pojmů](./vysvetleni-pojmu)
+
+---
+
+Zdroj některých děl: [https://rozbor-dila.cz/](https://rozbor-dila.cz/)
